@@ -9,16 +9,21 @@
     {
       "date": "2026-09-21",
       "weekday": "Mon",
-      "turns": 4,
-      "toolCallCount": 29,
+      "turns": 18,
+      "toolCallCount": 123,
       "models": [
         {
           "id": "xai/grok-4.6",
           "kind": "model",
-          "turns": 3
+          "turns": 16
         },
         {
           "id": "deepseek/deepseek-v4-flash",
+          "kind": "model",
+          "turns": 1
+        },
+        {
+          "id": "deepseek/deepseek-v4.1-flash",
           "kind": "model",
           "turns": 1
         }
@@ -71,10 +76,15 @@
     {
       "id": "xai/grok-4.6",
       "kind": "model",
-      "turns": 3
+      "turns": 16
     },
     {
       "id": "deepseek/deepseek-v4-flash",
+      "kind": "model",
+      "turns": 1
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
       "kind": "model",
       "turns": 1
     }
