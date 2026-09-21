@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>This week</title>
+  <title>Towry's Agent Turns</title>
   <style>
     :root {
       color-scheme: light;
@@ -266,7 +266,6 @@
         '<div><div>' + d.weekday + '</div><div class="dt">' + d.date.slice(5).replace('-', '.') + '</div></div>'
       ).join('')
       document.getElementById('title').textContent = data.complete ? data.label : 'This week'
-      document.title = document.getElementById('title').textContent
       document.getElementById('meta').textContent =
         data.start.replace(/-/g, '.') + '–' + data.end.slice(5).replace('-', '.') +
         ' · ' + totalTurns(data) + ' turns'
@@ -278,7 +277,6 @@
       const items = data.bars
       const axis = items.map((d) => '<div>' + d.label + '</div>').join('')
       document.getElementById('title').textContent = data.label
-      document.title = data.label
       document.getElementById('meta').textContent =
         totalTurns(data) + ' turns'
       document.getElementById('main').innerHTML =
