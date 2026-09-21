@@ -1,0 +1,60 @@
+{
+  "kind": "week",
+  "id": "2026-W38",
+  "label": "Week 38, 2026",
+  "start": "2026-09-14",
+  "end": "2026-09-20",
+  "complete": true,
+  "days": [
+    {
+      "date": "2026-09-14",
+      "weekday": "Mon",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    },
+    {
+      "date": "2026-09-15",
+      "weekday": "Tue",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    },
+    {
+      "date": "2026-09-16",
+      "weekday": "Wed",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    },
+    {
+      "date": "2026-09-17",
+      "weekday": "Thu",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    },
+    {
+      "date": "2026-09-18",
+      "weekday": "Fri",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    },
+    {
+      "date": "2026-09-19",
+      "weekday": "Sat",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    },
+    {
+      "date": "2026-09-20",
+      "weekday": "Sun",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    }
+  ],
+  "models": []
+}

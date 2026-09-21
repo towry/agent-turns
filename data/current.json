@@ -1,0 +1,82 @@
+{
+  "kind": "week",
+  "id": "2026-W39",
+  "label": "This week",
+  "start": "2026-09-21",
+  "end": "2026-09-27",
+  "complete": false,
+  "days": [
+    {
+      "date": "2026-09-21",
+      "weekday": "Mon",
+      "turns": 4,
+      "toolCallCount": 29,
+      "models": [
+        {
+          "id": "xai/grok-4.6",
+          "kind": "model",
+          "turns": 3
+        },
+        {
+          "id": "deepseek/deepseek-v4-flash",
+          "kind": "model",
+          "turns": 1
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "weekday": "Tue",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    },
+    {
+      "date": "2026-09-23",
+      "weekday": "Wed",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    },
+    {
+      "date": "2026-09-24",
+      "weekday": "Thu",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    },
+    {
+      "date": "2026-09-25",
+      "weekday": "Fri",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    },
+    {
+      "date": "2026-09-26",
+      "weekday": "Sat",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    },
+    {
+      "date": "2026-09-27",
+      "weekday": "Sun",
+      "turns": 0,
+      "toolCallCount": 0,
+      "models": []
+    }
+  ],
+  "models": [
+    {
+      "id": "xai/grok-4.6",
+      "kind": "model",
+      "turns": 3
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "kind": "model",
+      "turns": 1
+    }
+  ]
+}

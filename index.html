@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>This week</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper-bg: #ffffff;
+      --paper-surface: #fafafa;
+      --paper-text: #141413;
+      --paper-text-muted: #6b6b6b;
+      --paper-accent: #1a1a1a;
+      --paper-border: #e5e5e0;
+      --paper-border-light: #f0f0ec;
+      --paper-font-heading: "Inter", "Helvetica Neue", Arial, sans-serif;
+      --paper-font-body: "Georgia", "Times New Roman", serif;
+      --paper-font-mono: "JetBrains Mono", "SF Mono", ui-monospace, monospace;
+      --paper-text-xs: 0.875rem;
+      --paper-text-sm: 1rem;
+      --paper-text-body: 1.125rem;
+      --paper-h1: 3.5rem;
+      --paper-h2: 1.75rem;
+      --paper-leading-tight: 1.1;
+      --paper-leading-snug: 1.25;
+      --paper-leading-normal: 1.55;
+      --paper-weight-normal: 400;
+      --paper-weight-medium: 500;
+      --paper-weight-semibold: 600;
+      --paper-weight-bold: 700;
+      --paper-space-1: 0.25rem;
+      --paper-space-2: 0.5rem;
+      --paper-space-3: 0.75rem;
+      --paper-space-4: 1rem;
+      --paper-space-6: 1.5rem;
+      --paper-space-8: 2rem;
+      --paper-space-12: 3rem;
+      --paper-space-16: 4rem;
+      --paper-content-max: 640px;
+      --paper-page-padding: 1.5rem;
+      --paper-transition-fast: 100ms ease;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { font-size: 16px; -webkit-font-smoothing: antialiased; }
+    body {
+      font-family: var(--paper-font-body);
+      font-size: var(--paper-text-body);
+      line-height: var(--paper-leading-normal);
+      color: var(--paper-text);
+      background: var(--paper-bg);
+      min-height: 100vh;
+    }
+    .paper-container {
+      max-width: var(--paper-content-max);
+      margin: 0 auto;
+      padding: var(--paper-space-16) var(--paper-page-padding) var(--paper-space-16);
+    }
+    .paper-h1 {
+      font-family: var(--paper-font-heading);
+      font-size: var(--paper-h1);
+      font-weight: var(--paper-weight-bold);
+      line-height: var(--paper-leading-tight);
+      text-align: center;
+      margin-bottom: var(--paper-space-4);
+      letter-spacing: -0.02em;
+    }
+    .paper-meta {
+      text-align: center;
+      font-family: var(--paper-font-heading);
+      font-size: var(--paper-text-sm);
+      color: var(--paper-text-muted);
+      margin-bottom: var(--paper-space-12);
+    }
+    .paper-h2 {
+      font-family: var(--paper-font-heading);
+      font-size: var(--paper-h2);
+      font-weight: var(--paper-weight-semibold);
+      line-height: var(--paper-leading-snug);
+      margin-top: var(--paper-space-8);
+      margin-bottom: var(--paper-space-2);
+    }
+    .paper-paragraph {
+      margin-bottom: var(--paper-space-4);
+    }
+    .paper-link {
+      color: var(--paper-accent);
+      text-decoration: underline;
+      text-decoration-color: var(--paper-border);
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1.5px;
+    }
+    .paper-link:hover { text-decoration-color: var(--paper-accent); }
+    .chart {
+      position: relative;
+      height: 220px;
+      display: grid;
+      align-items: end;
+      gap: 10px;
+      border-bottom: 1px solid var(--paper-text);
+      margin: var(--paper-space-8) 0 var(--paper-space-3);
+    }
+    .guide {
+      position: absolute;
+      left: 0; right: 0;
+      border-top: 1px dashed var(--paper-border);
+      font-family: var(--paper-font-heading);
+      font-size: var(--paper-text-xs);
+      color: var(--paper-text-muted);
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+    .guide span { background: var(--paper-bg); padding-right: 6px; }
+    .col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      height: 100%;
+      min-width: 0;
+    }
+    .count {
+      font-family: var(--paper-font-mono);
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+      margin-bottom: 6px;
+    }
+    .bar {
+      width: 42%;
+      min-width: 12px;
+      max-width: 28px;
+      background: var(--paper-text);
+    }
+    .bar.zero { height: 0; background: transparent; }
+    .axis {
+      display: grid;
+      gap: 10px;
+      text-align: center;
+      margin-bottom: var(--paper-space-8);
+      font-family: var(--paper-font-heading);
+      font-size: var(--paper-text-xs);
+    }
+    .axis .dt { color: var(--paper-text-muted); margin-top: 2px; font-variant-numeric: tabular-nums; }
+    table { width: 100%; border-collapse: collapse; font-size: 1rem; }
+    th, td { text-align: left; padding: 10px 0; border-bottom: 1px solid var(--paper-border); }
+    th {
+      font-family: var(--paper-font-heading);
+      font-size: var(--paper-text-xs);
+      font-weight: var(--paper-weight-medium);
+      color: var(--paper-text-muted);
+    }
+    td.id { font-family: var(--paper-font-mono); font-size: 0.95rem; }
+    td.kind { color: var(--paper-text-muted); font-family: var(--paper-font-heading); font-size: 0.95rem; }
+    td.n, th.n {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      font-family: var(--paper-font-mono);
+    }
+    .paper-article-footer {
+      margin-top: var(--paper-space-16);
+      padding-top: var(--paper-space-8);
+      border-top: 1px solid var(--paper-border);
+    }
+    .paper-footnote {
+      font-size: var(--paper-text-sm);
+      color: var(--paper-text-muted);
+      margin-bottom: var(--paper-space-2);
+    }
+    nav.crumbs {
+      font-family: var(--paper-font-heading);
+      font-size: var(--paper-text-xs);
+      color: var(--paper-text-muted);
+      margin-bottom: var(--paper-space-8);
+    }
+    .err { color: var(--paper-text-muted); }
+    @media (max-width: 640px) {
+      .paper-h1 { font-size: 2.25rem; }
+      .chart { height: 170px; }
+    }
+  </style>
+</head>
+<body>
+  <article class="paper-container">
+    <nav class="crumbs" id="crumbs"></nav>
+    <h1 class="paper-h1" id="title">This week</h1>
+    <div class="paper-meta" id="meta"></div>
+    <div id="main"></div>
+    <footer class="paper-article-footer" id="archive"></footer>
+  </article>
+  <script>
+    const params = new URLSearchParams(location.search)
+    const week = params.get('week')
+    const month = params.get('month')
+    const year = params.get('year')
+
+    function pageBase() {
+      const path = location.pathname
+      const dir = /\.[a-zA-Z0-9]+$/.test(path.split('/').pop() || '')
+        ? path.replace(/\/[^/]+$/, '/')
+        : path.endsWith('/') ? path : path + '/'
+      return location.origin + dir
+    }
+
+    const baseHref = pageBase()
+    const baseEl = document.createElement('base')
+    baseEl.href = baseHref
+    document.head.prepend(baseEl)
+
+    function dataUrl() {
+      if (week) return baseHref + 'data/weeks/' + week + '.json'
+      if (month) return baseHref + 'data/months/' + month + '.json'
+      if (year) return baseHref + 'data/years/' + year + '.json'
+      return baseHref + 'data/current.json'
+    }
+
+    function totalTurns(data) {
+      if (data.days) return data.days.reduce((s, d) => s + d.turns, 0)
+      if (data.bars) return data.bars.reduce((s, d) => s + d.turns, 0)
+      return 0
+    }
+
+    function maxTurns(items) {
+      return Math.max(100, ...items.map((d) => d.turns))
+    }
+
+    function crumbs() {
+      const bits = ['<a class="paper-link" href="' + baseHref + '">This week</a>']
+      if (week) bits.push(week)
+      else if (month) bits.push(month)
+      else if (year) bits.push(year)
+      document.getElementById('crumbs').innerHTML = bits.join(' · ')
+    }
+
+    function renderChart(items, axisHtml) {
+      const max = maxTurns(items)
+      const cols = items.map((d) => {
+        const h = d.turns === 0 ? 0 : (d.turns / max) * 100
+        const barClass = d.turns === 0 ? 'bar zero' : 'bar'
+        const inner = '<div class="count">' + d.turns + '</div>' +
+          '<div class="' + barClass + '" style="height:' + h + '%"></div>'
+        if (d.href) {
+          return '<a class="col paper-link" href="' + d.href + '" style="text-decoration:none;color:inherit">' + inner + '</a>'
+        }
+        return '<div class="col">' + inner + '</div>'
+      }).join('')
+      return '<div class="chart" style="grid-template-columns:repeat(' + items.length + ',1fr)">' +
+        '<div class="guide" style="bottom:50%"><span>' + Math.round(max / 2) + '</span></div>' +
+        '<div class="guide" style="bottom:100%"><span>' + max + '</span></div>' +
+        cols + '</div>' +
+        '<div class="axis" style="grid-template-columns:repeat(' + items.length + ',1fr)">' + axisHtml + '</div>'
+    }
+
+    function renderModels(models) {
+      if (!models || !models.length) return ''
+      const rows = models.map((m) =>
+        '<tr><td class="id">' + m.id + '</td><td class="kind">' + m.kind + '</td><td class="n">' + m.turns + '</td></tr>'
+      ).join('')
+      return '<h2 class="paper-h2">Models</h2>' +
+        '<table><thead><tr><th>Name</th><th>Type</th><th class="n">Turns</th></tr></thead><tbody>' +
+        rows + '</tbody></table>'
+    }
+
+    function renderWeek(data) {
+      const items = data.days
+      const axis = items.map((d) =>
+        '<div><div>' + d.weekday + '</div><div class="dt">' + d.date.slice(5).replace('-', '.') + '</div></div>'
+      ).join('')
+      document.getElementById('title').textContent = data.complete ? data.label : 'This week'
+      document.title = document.getElementById('title').textContent
+      document.getElementById('meta').textContent =
+        data.start.replace(/-/g, '.') + '–' + data.end.slice(5).replace('-', '.') +
+        ' · ' + totalTurns(data) + ' turns'
+      document.getElementById('main').innerHTML =
+        renderChart(items, axis) + renderModels(data.models)
+    }
+
+    function renderBars(data, axisKey) {
+      const items = data.bars
+      const axis = items.map((d) => '<div>' + d.label + '</div>').join('')
+      document.getElementById('title').textContent = data.label
+      document.title = data.label
+      document.getElementById('meta').textContent =
+        totalTurns(data) + ' turns'
+      document.getElementById('main').innerHTML =
+        renderChart(items, axis) + renderModels(data.models)
+    }
+
+    async function renderArchive() {
+      const index = await fetch(baseHref + 'data/index.json').then((r) => r.json())
+      const parts = []
+      if (index.weeks.length) {
+        parts.push('<p class="paper-footnote">' +
+          index.weeks.map((id) => '<a class="paper-link" href="?week=' + id + '">' + id + '</a>').join(' · ') +
+          '</p>')
+      }
+      if (index.months.length) {
+        parts.push('<p class="paper-footnote">' +
+          index.months.map((id) => '<a class="paper-link" href="?month=' + id + '">' + id + '</a>').join(' · ') +
+          '</p>')
+      }
+      if (index.years.length) {
+        parts.push('<p class="paper-footnote">' +
+          index.years.map((id) => '<a class="paper-link" href="?year=' + id + '">' + id + '</a>').join(' · ') +
+          '</p>')
+      }
+      document.getElementById('archive').innerHTML = parts.join('')
+    }
+
+    crumbs()
+    Promise.all([
+      fetch(dataUrl()).then((r) => {
+        if (!r.ok) throw new Error('missing')
+        return r.json()
+      }),
+      renderArchive(),
+    ]).then(([data]) => {
+      if (data.kind === 'week') renderWeek(data)
+      else renderBars(data)
+    }).catch(() => {
+      document.getElementById('meta').textContent = ''
+      document.getElementById('main').innerHTML = '<p class="err"><a class="paper-link" href="' + baseHref + '">This week</a></p>'
+    })
+  </script>
+</body>
+</html>

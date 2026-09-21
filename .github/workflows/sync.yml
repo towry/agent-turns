@@ -1,0 +1,42 @@
+name: sync
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test
+        run: PYTHONPATH=scripts python3 scripts/sync_test.py
+      - name: Fetch yesterday and today
+        env:
+          FLYAGENT_URL: ${{ secrets.FLYAGENT_URL }}
+          FLYAGENT_TOKEN: ${{ secrets.FLYAGENT_TOKEN }}
+        run: python3 scripts/sync.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "no data changes"
+            exit 0
+          fi
+          git commit -m "chore(data): merge yesterday and today"
+          git push
