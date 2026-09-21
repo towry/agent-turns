@@ -2,7 +2,7 @@
 
 Static site for GitHub Pages. The homepage is the current week. Completed weeks, months, and years are files under `data/`.
 
-Scheduled at 03:30 and 07:00 UTC (11:30 and 15:00 Asia/Shanghai):
+Hourly from 09:00 through 22:00 Asia/Shanghai (01:00–14:00 UTC). No run after 22:00.
 
 - `GET {FLYAGENT_URL}/v1/metrics/turns/days/{yesterday}`
 - `GET {FLYAGENT_URL}/v1/metrics/turns/days/{today}`

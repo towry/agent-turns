@@ -2,7 +2,7 @@ name: sync
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 1-14 * * *"
   workflow_dispatch:
 
 permissions:
