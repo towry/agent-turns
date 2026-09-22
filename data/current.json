@@ -42,18 +42,23 @@
     {
       "date": "2026-09-22",
       "weekday": "Tue",
-      "turns": 47,
-      "toolCallCount": 597,
+      "turns": 61,
+      "toolCallCount": 703,
       "models": [
         {
           "id": "xai/grok-4.7",
           "kind": "model",
-          "turns": 28
+          "turns": 36
         },
         {
           "id": "meta/muse-spark-1.3",
           "kind": "model",
           "turns": 7
+        },
+        {
+          "id": "deepseek/deepseek-v4.1-flash",
+          "kind": "model",
+          "turns": 6
         },
         {
           "id": "low",
@@ -120,19 +125,19 @@
   ],
   "models": [
     {
+      "id": "xai/grok-4.7",
+      "kind": "model",
+      "turns": 37
+    },
+    {
       "id": "xai/grok-4.6",
       "kind": "model",
       "turns": 30
     },
     {
-      "id": "xai/grok-4.7",
-      "kind": "model",
-      "turns": 29
-    },
-    {
       "id": "deepseek/deepseek-v4.1-flash",
       "kind": "model",
-      "turns": 11
+      "turns": 17
     },
     {
       "id": "meta/muse-spark-1.3",
