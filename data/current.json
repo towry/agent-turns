@@ -42,13 +42,18 @@
     {
       "date": "2026-09-22",
       "weekday": "Tue",
-      "turns": 95,
-      "toolCallCount": 1092,
+      "turns": 129,
+      "toolCallCount": 1380,
       "models": [
         {
           "id": "xai/grok-4.7",
           "kind": "model",
-          "turns": 57
+          "turns": 79
+        },
+        {
+          "id": "openai/gpt-6-astra",
+          "kind": "model",
+          "turns": 15
         },
         {
           "id": "deepseek/deepseek-v4.1-flash",
@@ -64,11 +69,6 @@
           "id": "low",
           "kind": "mode",
           "turns": 4
-        },
-        {
-          "id": "openai/gpt-6-astra",
-          "kind": "model",
-          "turns": 3
         },
         {
           "id": "amp-high",
@@ -142,7 +142,7 @@
     {
       "id": "xai/grok-4.7",
       "kind": "model",
-      "turns": 58
+      "turns": 80
     },
     {
       "id": "xai/grok-4.6",
@@ -155,6 +155,11 @@
       "turns": 25
     },
     {
+      "id": "openai/gpt-6-astra",
+      "kind": "model",
+      "turns": 15
+    },
+    {
       "id": "meta/muse-spark-1.3",
       "kind": "model",
       "turns": 7
@@ -163,11 +168,6 @@
       "id": "low",
       "kind": "mode",
       "turns": 6
-    },
-    {
-      "id": "openai/gpt-6-astra",
-      "kind": "model",
-      "turns": 3
     },
     {
       "id": "amp-high",
