@@ -42,18 +42,23 @@
     {
       "date": "2026-09-22",
       "weekday": "Tue",
-      "turns": 5,
-      "toolCallCount": 37,
+      "turns": 13,
+      "toolCallCount": 246,
       "models": [
+        {
+          "id": "xai/grok-4.7",
+          "kind": "model",
+          "turns": 7
+        },
         {
           "id": "low",
           "kind": "mode",
           "turns": 4
         },
         {
-          "id": "xai/grok-4.7",
+          "id": "amp-low",
           "kind": "model",
-          "turns": 1
+          "turns": 2
         }
       ]
     },
@@ -105,12 +110,17 @@
       "turns": 11
     },
     {
+      "id": "xai/grok-4.7",
+      "kind": "model",
+      "turns": 8
+    },
+    {
       "id": "low",
       "kind": "mode",
       "turns": 6
     },
     {
-      "id": "xai/grok-4.7",
+      "id": "amp-low",
       "kind": "model",
       "turns": 2
     },
