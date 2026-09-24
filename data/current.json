@@ -110,13 +110,13 @@
     {
       "date": "2026-09-23",
       "weekday": "Wed",
-      "turns": 165,
-      "toolCallCount": 1852,
+      "turns": 182,
+      "toolCallCount": 2095,
       "models": [
         {
           "id": "openai/gpt-6-sol",
           "kind": "model",
-          "turns": 88
+          "turns": 92
         },
         {
           "id": "xiaomi/mimo-v2.6-pro",
@@ -127,6 +127,11 @@
           "id": "xiaomi/mimo-v2.6-flash",
           "kind": "model",
           "turns": 18
+        },
+        {
+          "id": "amp-medium",
+          "kind": "model",
+          "turns": 17
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -144,11 +149,6 @@
           "turns": 6
         },
         {
-          "id": "amp-medium",
-          "kind": "model",
-          "turns": 4
-        },
-        {
           "id": "openai/gpt-6-astra",
           "kind": "model",
           "turns": 2
@@ -163,9 +163,25 @@
     {
       "date": "2026-09-24",
       "weekday": "Thu",
-      "turns": 0,
-      "toolCallCount": 0,
-      "models": []
+      "turns": 12,
+      "toolCallCount": 193,
+      "models": [
+        {
+          "id": "amp-medium",
+          "kind": "model",
+          "turns": 6
+        },
+        {
+          "id": "openai/gpt-6-sol",
+          "kind": "model",
+          "turns": 4
+        },
+        {
+          "id": "xiaomi/mimo-v2.6-pro",
+          "kind": "model",
+          "turns": 2
+        }
+      ]
     },
     {
       "date": "2026-09-25",
@@ -198,7 +214,7 @@
     {
       "id": "openai/gpt-6-sol",
       "kind": "model",
-      "turns": 90
+      "turns": 98
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -216,14 +232,19 @@
       "turns": 35
     },
     {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "kind": "model",
+      "turns": 29
+    },
+    {
       "id": "meta/muse-spark-1.3",
       "kind": "model",
       "turns": 27
     },
     {
-      "id": "xiaomi/mimo-v2.6-pro",
+      "id": "amp-medium",
       "kind": "model",
-      "turns": 27
+      "turns": 23
     },
     {
       "id": "xiaomi/mimo-v2.6-flash",
@@ -244,11 +265,6 @@
       "id": "deepseek/deepseek-v4-flash",
       "kind": "model",
       "turns": 6
-    },
-    {
-      "id": "amp-medium",
-      "kind": "model",
-      "turns": 4
     },
     {
       "id": "amp-high",
