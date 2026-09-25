@@ -216,8 +216,8 @@
     {
       "date": "2026-09-25",
       "weekday": "Fri",
-      "turns": 20,
-      "toolCallCount": 342,
+      "turns": 22,
+      "toolCallCount": 433,
       "models": [
         {
           "id": "xai/grok-4.7",
@@ -227,7 +227,12 @@
         {
           "id": "openai/gpt-6-astra",
           "kind": "model",
-          "turns": 3
+          "turns": 4
+        },
+        {
+          "id": "deepseek/deepseek-v4.1-flash",
+          "kind": "model",
+          "turns": 1
         }
       ]
     },
@@ -260,7 +265,7 @@
     {
       "id": "openai/gpt-6-astra",
       "kind": "model",
-      "turns": 68
+      "turns": 69
     },
     {
       "id": "amp-medium",
@@ -270,7 +275,7 @@
     {
       "id": "deepseek/deepseek-v4.1-flash",
       "kind": "model",
-      "turns": 42
+      "turns": 43
     },
     {
       "id": "xai/grok-4.6",
