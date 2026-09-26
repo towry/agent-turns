@@ -244,9 +244,15 @@
     {
       "date": "2026-09-26",
       "weekday": "Sat",
-      "turns": 0,
-      "toolCallCount": 0,
-      "models": []
+      "turns": 2,
+      "toolCallCount": 25,
+      "models": [
+        {
+          "id": "openai/gpt-6-astra",
+          "kind": "model",
+          "turns": 2
+        }
+      ]
     },
     {
       "date": "2026-09-27",
@@ -270,7 +276,7 @@
     {
       "id": "openai/gpt-6-astra",
       "kind": "model",
-      "turns": 79
+      "turns": 81
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
