@@ -267,16 +267,16 @@
     {
       "date": "2026-09-27",
       "weekday": "Sun",
-      "turns": 20,
-      "toolCallCount": 796,
+      "turns": 22,
+      "toolCallCount": 823,
       "models": [
         {
-          "id": "deepseek/deepseek-v4.1-flash",
+          "id": "zhipuai/glm-5.3-flash",
           "kind": "model",
-          "turns": 8
+          "turns": 10
         },
         {
-          "id": "zhipuai/glm-5.3-flash",
+          "id": "deepseek/deepseek-v4.1-flash",
           "kind": "model",
           "turns": 8
         },
@@ -330,12 +330,12 @@
       "turns": 31
     },
     {
-      "id": "meta/muse-spark-1.3",
+      "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
-      "turns": 27
+      "turns": 29
     },
     {
-      "id": "zhipuai/glm-5.3-flash",
+      "id": "meta/muse-spark-1.3",
       "kind": "model",
       "turns": 27
     },
