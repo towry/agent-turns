@@ -267,8 +267,8 @@
     {
       "date": "2026-09-27",
       "weekday": "Sun",
-      "turns": 8,
-      "toolCallCount": 146,
+      "turns": 11,
+      "toolCallCount": 210,
       "models": [
         {
           "id": "openai/gpt-6-astra",
@@ -276,14 +276,14 @@
           "turns": 4
         },
         {
-          "id": "deepseek/deepseek-v4.1-flash",
-          "kind": "model",
-          "turns": 2
-        },
-        {
           "id": "zhipuai/glm-5.3-flash",
           "kind": "model",
-          "turns": 2
+          "turns": 4
+        },
+        {
+          "id": "deepseek/deepseek-v4.1-flash",
+          "kind": "model",
+          "turns": 3
         }
       ]
     }
@@ -307,7 +307,7 @@
     {
       "id": "deepseek/deepseek-v4.1-flash",
       "kind": "model",
-      "turns": 76
+      "turns": 77
     },
     {
       "id": "amp-medium",
@@ -337,7 +337,7 @@
     {
       "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
-      "turns": 21
+      "turns": 23
     },
     {
       "id": "amp-low",
