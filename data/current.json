@@ -47,8 +47,8 @@
     {
       "date": "2026-09-29",
       "weekday": "Tue",
-      "turns": 8,
-      "toolCallCount": 69,
+      "turns": 9,
+      "toolCallCount": 76,
       "models": [
         {
           "id": "openai/gpt-6-astra",
@@ -58,7 +58,7 @@
         {
           "id": "xiaomi/mimo-v2.6-flash",
           "kind": "model",
-          "turns": 1
+          "turns": 2
         }
       ]
     },
@@ -117,7 +117,7 @@
     {
       "id": "xiaomi/mimo-v2.6-flash",
       "kind": "model",
-      "turns": 6
+      "turns": 7
     },
     {
       "id": "zhipuai/glm-5.3-flash",
