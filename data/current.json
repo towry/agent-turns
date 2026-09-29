@@ -47,18 +47,18 @@
     {
       "date": "2026-09-29",
       "weekday": "Tue",
-      "turns": 29,
-      "toolCallCount": 417,
+      "turns": 36,
+      "toolCallCount": 568,
       "models": [
         {
           "id": "xiaomi/mimo-v2.6-flash",
           "kind": "model",
-          "turns": 15
+          "turns": 19
         },
         {
           "id": "openai/gpt-6-astra",
           "kind": "model",
-          "turns": 11
+          "turns": 13
         },
         {
           "id": "xai/grok-4.6",
@@ -67,6 +67,11 @@
         },
         {
           "id": "deepseek/deepseek-v4-flash",
+          "kind": "model",
+          "turns": 1
+        },
+        {
+          "id": "zhipuai/glm-5.3-flash",
           "kind": "model",
           "turns": 1
         }
@@ -117,12 +122,12 @@
     {
       "id": "openai/gpt-6-astra",
       "kind": "model",
-      "turns": 49
+      "turns": 51
     },
     {
       "id": "xiaomi/mimo-v2.6-flash",
       "kind": "model",
-      "turns": 20
+      "turns": 24
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -132,7 +137,7 @@
     {
       "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
-      "turns": 5
+      "turns": 6
     },
     {
       "id": "deepseek/deepseek-v4-flash",
