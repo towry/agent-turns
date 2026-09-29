@@ -47,18 +47,18 @@
     {
       "date": "2026-09-29",
       "weekday": "Tue",
-      "turns": 20,
-      "toolCallCount": 313,
+      "turns": 24,
+      "toolCallCount": 342,
       "models": [
         {
           "id": "xiaomi/mimo-v2.6-flash",
           "kind": "model",
-          "turns": 9
+          "turns": 11
         },
         {
           "id": "openai/gpt-6-astra",
           "kind": "model",
-          "turns": 8
+          "turns": 10
         },
         {
           "id": "xai/grok-4.6",
@@ -117,12 +117,12 @@
     {
       "id": "openai/gpt-6-astra",
       "kind": "model",
-      "turns": 46
+      "turns": 48
     },
     {
       "id": "xiaomi/mimo-v2.6-flash",
       "kind": "model",
-      "turns": 14
+      "turns": 16
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
