@@ -95,23 +95,23 @@
     {
       "date": "2026-09-30",
       "weekday": "Wed",
-      "turns": 23,
-      "toolCallCount": 226,
+      "turns": 30,
+      "toolCallCount": 277,
       "models": [
         {
           "id": "openai/gpt-6-astra",
           "kind": "model",
-          "turns": 10
+          "turns": 13
         },
         {
           "id": "xiaomi/mimo-v2.6-flash",
           "kind": "model",
-          "turns": 9
+          "turns": 12
         },
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 2
+          "turns": 3
         },
         {
           "id": "zhipuai/glm-5.3-flash",
@@ -153,7 +153,7 @@
     {
       "id": "openai/gpt-6-astra",
       "kind": "model",
-      "turns": 84
+      "turns": 87
     },
     {
       "id": "xai/grok-4.6",
@@ -163,7 +163,7 @@
     {
       "id": "xiaomi/mimo-v2.6-flash",
       "kind": "model",
-      "turns": 41
+      "turns": 44
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -181,14 +181,14 @@
       "turns": 4
     },
     {
-      "id": "amp-low",
+      "id": "amp-high",
       "kind": "model",
       "turns": 3
     },
     {
-      "id": "amp-high",
+      "id": "amp-low",
       "kind": "model",
-      "turns": 2
+      "turns": 3
     },
     {
       "id": "anthropic/claude-opus-5-5",
