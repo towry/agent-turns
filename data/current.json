@@ -95,8 +95,8 @@
     {
       "date": "2026-09-30",
       "weekday": "Wed",
-      "turns": 32,
-      "toolCallCount": 342,
+      "turns": 34,
+      "toolCallCount": 370,
       "models": [
         {
           "id": "openai/gpt-6-astra",
@@ -111,7 +111,7 @@
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 4
+          "turns": 6
         },
         {
           "id": "zhipuai/glm-5.3-flash",
@@ -178,7 +178,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 4
+      "turns": 6
     },
     {
       "id": "amp-medium",
