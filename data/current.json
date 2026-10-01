@@ -128,8 +128,8 @@
     {
       "date": "2026-10-01",
       "weekday": "Thu",
-      "turns": 7,
-      "toolCallCount": 114,
+      "turns": 8,
+      "toolCallCount": 119,
       "models": [
         {
           "id": "amp-high",
@@ -139,7 +139,7 @@
         {
           "id": "xiaomi/mimo-v2.6-flash",
           "kind": "model",
-          "turns": 3
+          "turns": 4
         }
       ]
     },
@@ -179,7 +179,7 @@
     {
       "id": "xiaomi/mimo-v2.6-flash",
       "kind": "model",
-      "turns": 56
+      "turns": 57
     },
     {
       "id": "amp-high",
