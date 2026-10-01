@@ -1,0 +1,108 @@
+{
+  "kind": "month",
+  "id": "2026-09",
+  "label": "2026-09",
+  "complete": true,
+  "bars": [
+    {
+      "id": "2026-W38",
+      "label": "W38",
+      "turns": 0,
+      "href": "?week=2026-W38"
+    },
+    {
+      "id": "2026-W39",
+      "label": "W39",
+      "turns": 743,
+      "href": "?week=2026-W39"
+    },
+    {
+      "id": "2026-W40",
+      "label": "W40",
+      "turns": 258,
+      "href": "?week=2026-W40"
+    }
+  ],
+  "models": [
+    {
+      "id": "openai/gpt-6-astra",
+      "kind": "model",
+      "turns": 196
+    },
+    {
+      "id": "xai/grok-4.7",
+      "kind": "model",
+      "turns": 183
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "kind": "model",
+      "turns": 125
+    },
+    {
+      "id": "xai/grok-4.6",
+      "kind": "model",
+      "turns": 105
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "kind": "model",
+      "turns": 100
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "kind": "model",
+      "turns": 84
+    },
+    {
+      "id": "amp-medium",
+      "kind": "model",
+      "turns": 53
+    },
+    {
+      "id": "zhipuai/glm-5.3-flash",
+      "kind": "model",
+      "turns": 40
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "kind": "model",
+      "turns": 33
+    },
+    {
+      "id": "meta/muse-spark-1.3",
+      "kind": "model",
+      "turns": 27
+    },
+    {
+      "id": "amp-high",
+      "kind": "model",
+      "turns": 19
+    },
+    {
+      "id": "amp-low",
+      "kind": "model",
+      "turns": 14
+    },
+    {
+      "id": "anthropic/claude-opus-5-5",
+      "kind": "model",
+      "turns": 12
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "kind": "model",
+      "turns": 8
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "kind": "model",
+      "turns": 1
+    },
+    {
+      "id": "google-vertex/gemini-3.8-flash",
+      "kind": "model",
+      "turns": 1
+    }
+  ]
+}
