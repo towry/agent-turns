@@ -128,8 +128,8 @@
     {
       "date": "2026-10-01",
       "weekday": "Thu",
-      "turns": 19,
-      "toolCallCount": 208,
+      "turns": 21,
+      "toolCallCount": 272,
       "models": [
         {
           "id": "xiaomi/mimo-v2.6-flash",
@@ -139,7 +139,7 @@
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 7
+          "turns": 9
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -156,9 +156,20 @@
     {
       "date": "2026-10-02",
       "weekday": "Fri",
-      "turns": 0,
-      "toolCallCount": 0,
-      "models": []
+      "turns": 2,
+      "toolCallCount": 126,
+      "models": [
+        {
+          "id": "deepseek/deepseek-v4-flash",
+          "kind": "model",
+          "turns": 1
+        },
+        {
+          "id": "xiaomi/mimo-v2.6-flash",
+          "kind": "model",
+          "turns": 1
+        }
+      ]
     },
     {
       "date": "2026-10-03",
@@ -189,12 +200,12 @@
     {
       "id": "xiaomi/mimo-v2.6-flash",
       "kind": "model",
-      "turns": 63
+      "turns": 64
     },
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 22
+      "turns": 24
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -212,12 +223,12 @@
       "turns": 4
     },
     {
-      "id": "amp-low",
+      "id": "deepseek/deepseek-v4-flash",
       "kind": "model",
-      "turns": 3
+      "turns": 4
     },
     {
-      "id": "deepseek/deepseek-v4-flash",
+      "id": "amp-low",
       "kind": "model",
       "turns": 3
     },
