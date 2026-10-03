@@ -156,13 +156,13 @@
     {
       "date": "2026-10-02",
       "weekday": "Fri",
-      "turns": 8,
-      "toolCallCount": 444,
+      "turns": 14,
+      "toolCallCount": 476,
       "models": [
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 4
+          "turns": 8
         },
         {
           "id": "deepseek/deepseek-v4-flash",
@@ -172,16 +172,22 @@
         {
           "id": "xiaomi/mimo-v2.6-flash",
           "kind": "model",
-          "turns": 1
+          "turns": 3
         }
       ]
     },
     {
       "date": "2026-10-03",
       "weekday": "Sat",
-      "turns": 0,
-      "toolCallCount": 0,
-      "models": []
+      "turns": 4,
+      "toolCallCount": 223,
+      "models": [
+        {
+          "id": "deepseek/deepseek-v4-flash",
+          "kind": "model",
+          "turns": 4
+        }
+      ]
     },
     {
       "date": "2026-10-04",
@@ -205,12 +211,12 @@
     {
       "id": "xiaomi/mimo-v2.6-flash",
       "kind": "model",
-      "turns": 64
+      "turns": 66
     },
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 28
+      "turns": 32
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -218,14 +224,14 @@
       "turns": 13
     },
     {
+      "id": "deepseek/deepseek-v4-flash",
+      "kind": "model",
+      "turns": 10
+    },
+    {
       "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
       "turns": 9
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash",
-      "kind": "model",
-      "turns": 6
     },
     {
       "id": "amp-medium",
