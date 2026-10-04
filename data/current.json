@@ -197,13 +197,18 @@
     {
       "date": "2026-10-04",
       "weekday": "Sun",
-      "turns": 15,
-      "toolCallCount": 294,
+      "turns": 18,
+      "toolCallCount": 735,
       "models": [
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 14
+          "turns": 15
+        },
+        {
+          "id": "deepseek/deepseek-v4-flash",
+          "kind": "model",
+          "turns": 2
         },
         {
           "id": "xai/grok-4.6",
@@ -232,17 +237,17 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 47
+      "turns": 48
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "kind": "model",
+      "turns": 13
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
       "kind": "model",
       "turns": 13
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash",
-      "kind": "model",
-      "turns": 11
     },
     {
       "id": "zhipuai/glm-5.3-flash",
