@@ -197,8 +197,8 @@
     {
       "date": "2026-10-04",
       "weekday": "Sun",
-      "turns": 19,
-      "toolCallCount": 758,
+      "turns": 21,
+      "toolCallCount": 875,
       "models": [
         {
           "id": "amp-high",
@@ -208,7 +208,7 @@
         {
           "id": "deepseek/deepseek-v4-flash",
           "kind": "model",
-          "turns": 2
+          "turns": 4
         },
         {
           "id": "openai/gpt-6-sol",
@@ -247,7 +247,7 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "kind": "model",
-      "turns": 13
+      "turns": 15
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
