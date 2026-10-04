@@ -197,9 +197,15 @@
     {
       "date": "2026-10-04",
       "weekday": "Sun",
-      "turns": 0,
-      "toolCallCount": 0,
-      "models": []
+      "turns": 1,
+      "toolCallCount": 23,
+      "models": [
+        {
+          "id": "amp-high",
+          "kind": "model",
+          "turns": 1
+        }
+      ]
     }
   ],
   "models": [
@@ -221,7 +227,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 33
+      "turns": 34
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
