@@ -9,13 +9,13 @@
     {
       "date": "2026-10-05",
       "weekday": "Mon",
-      "turns": 7,
-      "toolCallCount": 209,
+      "turns": 18,
+      "toolCallCount": 546,
       "models": [
         {
           "id": "deepseek/deepseek-v4-flash",
           "kind": "model",
-          "turns": 4
+          "turns": 15
         },
         {
           "id": "amp-high",
@@ -71,7 +71,7 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "kind": "model",
-      "turns": 4
+      "turns": 15
     },
     {
       "id": "amp-high",
