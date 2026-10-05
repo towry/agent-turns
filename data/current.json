@@ -9,18 +9,23 @@
     {
       "date": "2026-10-05",
       "weekday": "Mon",
-      "turns": 18,
-      "toolCallCount": 546,
+      "turns": 25,
+      "toolCallCount": 810,
       "models": [
         {
           "id": "deepseek/deepseek-v4-flash",
           "kind": "model",
-          "turns": 15
+          "turns": 20
         },
         {
           "id": "amp-high",
           "kind": "model",
           "turns": 3
+        },
+        {
+          "id": "xai/grok-4.7",
+          "kind": "model",
+          "turns": 2
         }
       ]
     },
@@ -71,12 +76,17 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "kind": "model",
-      "turns": 15
+      "turns": 20
     },
     {
       "id": "amp-high",
       "kind": "model",
       "turns": 3
+    },
+    {
+      "id": "xai/grok-4.7",
+      "kind": "model",
+      "turns": 2
     }
   ]
 }
