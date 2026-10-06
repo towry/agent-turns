@@ -32,8 +32,8 @@
     {
       "date": "2026-10-06",
       "weekday": "Tue",
-      "turns": 19,
-      "toolCallCount": 228,
+      "turns": 21,
+      "toolCallCount": 253,
       "models": [
         {
           "id": "deepseek/deepseek-v4-flash",
@@ -43,7 +43,7 @@
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 8
+          "turns": 10
         }
       ]
     },
@@ -92,7 +92,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 14
+      "turns": 16
     },
     {
       "id": "xai/grok-4.7",
