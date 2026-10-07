@@ -32,21 +32,41 @@
     {
       "date": "2026-10-06",
       "weekday": "Tue",
-      "turns": 32,
-      "toolCallCount": 469,
+      "turns": 87,
+      "toolCallCount": 1719,
       "models": [
-        {
-          "id": "amp-high",
-          "kind": "model",
-          "turns": 16
-        },
         {
           "id": "deepseek/deepseek-v4-flash",
           "kind": "model",
-          "turns": 15
+          "turns": 37
+        },
+        {
+          "id": "amp-high",
+          "kind": "model",
+          "turns": 18
+        },
+        {
+          "id": "xai/grok-4.7",
+          "kind": "model",
+          "turns": 18
         },
         {
           "id": "xai/grok-4.6",
+          "kind": "model",
+          "turns": 8
+        },
+        {
+          "id": "anthropic/claude-opus-5-5",
+          "kind": "model",
+          "turns": 3
+        },
+        {
+          "id": "xiaomi/mimo-v2.6-pro",
+          "kind": "model",
+          "turns": 2
+        },
+        {
+          "id": "openai/gpt-6-sol",
           "kind": "model",
           "turns": 1
         }
@@ -55,9 +75,15 @@
     {
       "date": "2026-10-07",
       "weekday": "Wed",
-      "turns": 0,
-      "toolCallCount": 0,
-      "models": []
+      "turns": 2,
+      "toolCallCount": 31,
+      "models": [
+        {
+          "id": "deepseek/deepseek-v4-flash",
+          "kind": "model",
+          "turns": 2
+        }
+      ]
     },
     {
       "date": "2026-10-08",
@@ -92,20 +118,35 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "kind": "model",
-      "turns": 58
+      "turns": 82
     },
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 22
+      "turns": 24
     },
     {
       "id": "xai/grok-4.7",
       "kind": "model",
-      "turns": 2
+      "turns": 20
     },
     {
       "id": "xai/grok-4.6",
+      "kind": "model",
+      "turns": 8
+    },
+    {
+      "id": "anthropic/claude-opus-5-5",
+      "kind": "model",
+      "turns": 3
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "kind": "model",
+      "turns": 2
+    },
+    {
+      "id": "openai/gpt-6-sol",
       "kind": "model",
       "turns": 1
     }
