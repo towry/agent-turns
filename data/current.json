@@ -75,8 +75,8 @@
     {
       "date": "2026-10-07",
       "weekday": "Wed",
-      "turns": 20,
-      "toolCallCount": 587,
+      "turns": 22,
+      "toolCallCount": 607,
       "models": [
         {
           "id": "deepseek/deepseek-v4-flash",
@@ -86,7 +86,7 @@
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 8
+          "turns": 10
         },
         {
           "id": "xiaomi/mimo-v2.6-pro",
@@ -133,7 +133,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 32
+      "turns": 34
     },
     {
       "id": "xai/grok-4.7",
