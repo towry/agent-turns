@@ -98,18 +98,18 @@
     {
       "date": "2026-10-08",
       "weekday": "Thu",
-      "turns": 26,
-      "toolCallCount": 701,
+      "turns": 30,
+      "toolCallCount": 724,
       "models": [
         {
           "id": "xiaomi/mimo-v2.6-pro",
           "kind": "model",
-          "turns": 10
+          "turns": 12
         },
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 9
+          "turns": 11
         },
         {
           "id": "deepseek/deepseek-v4-flash",
@@ -149,7 +149,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 43
+      "turns": 45
     },
     {
       "id": "xai/grok-4.7",
@@ -159,7 +159,7 @@
     {
       "id": "xiaomi/mimo-v2.6-pro",
       "kind": "model",
-      "turns": 16
+      "turns": 18
     },
     {
       "id": "xai/grok-4.6",
