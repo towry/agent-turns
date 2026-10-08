@@ -98,16 +98,21 @@
     {
       "date": "2026-10-08",
       "weekday": "Thu",
-      "turns": 2,
-      "toolCallCount": 32,
+      "turns": 4,
+      "toolCallCount": 139,
       "models": [
+        {
+          "id": "xiaomi/mimo-v2.6-pro",
+          "kind": "model",
+          "turns": 2
+        },
         {
           "id": "amp-high",
           "kind": "model",
           "turns": 1
         },
         {
-          "id": "xiaomi/mimo-v2.6-pro",
+          "id": "deepseek/deepseek-v4-flash",
           "kind": "model",
           "turns": 1
         }
@@ -139,7 +144,7 @@
     {
       "id": "deepseek/deepseek-v4-flash",
       "kind": "model",
-      "turns": 91
+      "turns": 92
     },
     {
       "id": "amp-high",
@@ -159,7 +164,7 @@
     {
       "id": "xiaomi/mimo-v2.6-pro",
       "kind": "model",
-      "turns": 7
+      "turns": 8
     },
     {
       "id": "anthropic/claude-opus-5-5",
