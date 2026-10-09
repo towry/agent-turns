@@ -121,13 +121,13 @@
     {
       "date": "2026-10-09",
       "weekday": "Fri",
-      "turns": 36,
-      "toolCallCount": 674,
+      "turns": 44,
+      "toolCallCount": 823,
       "models": [
         {
           "id": "xai/grok-4.6",
           "kind": "model",
-          "turns": 13
+          "turns": 21
         },
         {
           "id": "amp-high",
@@ -178,6 +178,11 @@
       "turns": 68
     },
     {
+      "id": "xai/grok-4.6",
+      "kind": "model",
+      "turns": 29
+    },
+    {
       "id": "xiaomi/mimo-v2.6-pro",
       "kind": "model",
       "turns": 29
@@ -186,11 +191,6 @@
       "id": "xai/grok-4.7",
       "kind": "model",
       "turns": 28
-    },
-    {
-      "id": "xai/grok-4.6",
-      "kind": "model",
-      "turns": 21
     },
     {
       "id": "anthropic/claude-opus-5-5",
