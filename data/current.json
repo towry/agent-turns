@@ -121,18 +121,18 @@
     {
       "date": "2026-10-09",
       "weekday": "Fri",
-      "turns": 44,
-      "toolCallCount": 823,
+      "turns": 53,
+      "toolCallCount": 950,
       "models": [
         {
           "id": "xai/grok-4.6",
           "kind": "model",
-          "turns": 21
+          "turns": 29
         },
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 10
+          "turns": 11
         },
         {
           "id": "xai/grok-4.7",
@@ -175,12 +175,12 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 68
+      "turns": 69
     },
     {
       "id": "xai/grok-4.6",
       "kind": "model",
-      "turns": 29
+      "turns": 37
     },
     {
       "id": "xiaomi/mimo-v2.6-pro",
