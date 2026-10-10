@@ -174,28 +174,28 @@
     {
       "date": "2026-10-10",
       "weekday": "Sat",
-      "turns": 90,
-      "toolCallCount": 1104,
+      "turns": 98,
+      "toolCallCount": 1317,
       "models": [
         {
           "id": "xai/grok-4.6",
           "kind": "model",
-          "turns": 48
-        },
-        {
-          "id": "amp-low",
-          "kind": "model",
-          "turns": 13
+          "turns": 49
         },
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 12
+          "turns": 14
+        },
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 14
         },
         {
           "id": "openai/gpt-6.1-sol",
           "kind": "model",
-          "turns": 7
+          "turns": 11
         },
         {
           "id": "openai/gpt-6-sol",
@@ -221,12 +221,12 @@
     {
       "id": "xai/grok-4.6",
       "kind": "model",
-      "turns": 127
+      "turns": 128
     },
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 110
+      "turns": 112
     },
     {
       "id": "deepseek/deepseek-v4-flash",
@@ -246,12 +246,12 @@
     {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 19
+      "turns": 23
     },
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 16
+      "turns": 17
     },
     {
       "id": "anthropic/claude-opus-5-5",
