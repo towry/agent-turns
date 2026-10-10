@@ -174,36 +174,36 @@
     {
       "date": "2026-10-10",
       "weekday": "Sat",
-      "turns": 36,
-      "toolCallCount": 556,
+      "turns": 52,
+      "toolCallCount": 719,
       "models": [
         {
           "id": "xai/grok-4.6",
           "kind": "model",
-          "turns": 18
+          "turns": 23
         },
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 11
+          "turns": 12
         },
         {
           "id": "amp-high",
+          "kind": "model",
+          "turns": 7
+        },
+        {
+          "id": "openai/gpt-6.1-sol",
+          "kind": "model",
+          "turns": 5
+        },
+        {
+          "id": "openai/gpt-6-sol",
           "kind": "model",
           "turns": 4
         },
         {
           "id": "anthropic/claude-opus-5-5",
-          "kind": "model",
-          "turns": 1
-        },
-        {
-          "id": "openai/gpt-6-sol",
-          "kind": "model",
-          "turns": 1
-        },
-        {
-          "id": "openai/gpt-6.1-sol",
           "kind": "model",
           "turns": 1
         }
@@ -219,19 +219,19 @@
   ],
   "models": [
     {
+      "id": "amp-high",
+      "kind": "model",
+      "turns": 105
+    },
+    {
       "id": "deepseek/deepseek-v4-flash",
       "kind": "model",
       "turns": 104
     },
     {
-      "id": "amp-high",
-      "kind": "model",
-      "turns": 102
-    },
-    {
       "id": "xai/grok-4.6",
       "kind": "model",
-      "turns": 97
+      "turns": 102
     },
     {
       "id": "xiaomi/mimo-v2.6-pro",
@@ -244,14 +244,19 @@
       "turns": 28
     },
     {
-      "id": "amp-low",
-      "kind": "model",
-      "turns": 14
-    },
-    {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 13
+      "turns": 17
+    },
+    {
+      "id": "amp-low",
+      "kind": "model",
+      "turns": 15
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "kind": "model",
+      "turns": 5
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -260,11 +265,6 @@
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
-      "kind": "model",
-      "turns": 2
-    },
-    {
-      "id": "openai/gpt-6-sol",
       "kind": "model",
       "turns": 2
     },
