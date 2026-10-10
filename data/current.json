@@ -174,18 +174,23 @@
     {
       "date": "2026-10-10",
       "weekday": "Sat",
-      "turns": 11,
-      "toolCallCount": 120,
+      "turns": 23,
+      "toolCallCount": 219,
       "models": [
         {
           "id": "xai/grok-4.6",
           "kind": "model",
-          "turns": 7
+          "turns": 13
+        },
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 5
         },
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 3
+          "turns": 4
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -211,12 +216,12 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 101
+      "turns": 102
     },
     {
       "id": "xai/grok-4.6",
       "kind": "model",
-      "turns": 86
+      "turns": 92
     },
     {
       "id": "xiaomi/mimo-v2.6-pro",
@@ -234,14 +239,14 @@
       "turns": 12
     },
     {
+      "id": "amp-low",
+      "kind": "model",
+      "turns": 8
+    },
+    {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
       "turns": 4
-    },
-    {
-      "id": "amp-low",
-      "kind": "model",
-      "turns": 3
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
