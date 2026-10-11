@@ -222,13 +222,13 @@
     {
       "date": "2026-10-11",
       "weekday": "Sun",
-      "turns": 31,
-      "toolCallCount": 585,
+      "turns": 33,
+      "toolCallCount": 640,
       "models": [
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 24
+          "turns": 25
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -238,7 +238,7 @@
         {
           "id": "zhipuai/glm-5.3-flash",
           "kind": "model",
-          "turns": 1
+          "turns": 2
         }
       ]
     }
@@ -247,7 +247,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 163
+      "turns": 164
     },
     {
       "id": "xai/grok-4.6",
@@ -295,17 +295,17 @@
       "turns": 2
     },
     {
+      "id": "zhipuai/glm-5.3-flash",
+      "kind": "model",
+      "turns": 2
+    },
+    {
       "id": "amp-ultra",
       "kind": "model",
       "turns": 1
     },
     {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "kind": "model",
-      "turns": 1
-    },
-    {
-      "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
       "turns": 1
     }
