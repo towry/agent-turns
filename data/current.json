@@ -174,8 +174,8 @@
     {
       "date": "2026-10-10",
       "weekday": "Sat",
-      "turns": 162,
-      "toolCallCount": 2296,
+      "turns": 178,
+      "toolCallCount": 2535,
       "models": [
         {
           "id": "xai/grok-4.6",
@@ -185,7 +185,7 @@
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 31
+          "turns": 41
         },
         {
           "id": "openai/gpt-6.1-sol",
@@ -200,7 +200,7 @@
         {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 17
+          "turns": 23
         },
         {
           "id": "openai/gpt-6-sol",
@@ -229,14 +229,14 @@
   ],
   "models": [
     {
+      "id": "amp-high",
+      "kind": "model",
+      "turns": 139
+    },
+    {
       "id": "xai/grok-4.6",
       "kind": "model",
       "turns": 130
-    },
-    {
-      "id": "amp-high",
-      "kind": "model",
-      "turns": 129
     },
     {
       "id": "deepseek/deepseek-v4-flash",
@@ -266,7 +266,7 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 20
+      "turns": 26
     },
     {
       "id": "openai/gpt-6-sol",
