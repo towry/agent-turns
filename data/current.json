@@ -222,18 +222,18 @@
     {
       "date": "2026-10-11",
       "weekday": "Sun",
-      "turns": 16,
-      "toolCallCount": 263,
+      "turns": 21,
+      "toolCallCount": 313,
       "models": [
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 12
+          "turns": 16
         },
         {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 3
+          "turns": 4
         },
         {
           "id": "zhipuai/glm-5.3-flash",
@@ -247,7 +247,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 151
+      "turns": 155
     },
     {
       "id": "xai/grok-4.6",
@@ -267,7 +267,7 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 29
+      "turns": 30
     },
     {
       "id": "xiaomi/mimo-v2.6-pro",
