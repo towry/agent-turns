@@ -9,8 +9,8 @@
     {
       "date": "2026-10-12",
       "weekday": "Mon",
-      "turns": 57,
-      "toolCallCount": 871,
+      "turns": 67,
+      "toolCallCount": 999,
       "models": [
         {
           "id": "amp-low",
@@ -20,12 +20,12 @@
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 16
+          "turns": 24
         },
         {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 6
+          "turns": 7
         },
         {
           "id": "amp-medium",
@@ -41,6 +41,11 @@
           "id": "zhipuai/glm-5.3-flash",
           "kind": "model",
           "turns": 2
+        },
+        {
+          "id": "anthropic/claude-opus-5",
+          "kind": "model",
+          "turns": 1
         }
       ]
     },
@@ -96,12 +101,12 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 16
+      "turns": 24
     },
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 6
+      "turns": 7
     },
     {
       "id": "amp-medium",
@@ -117,6 +122,11 @@
       "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
       "turns": 2
+    },
+    {
+      "id": "anthropic/claude-opus-5",
+      "kind": "model",
+      "turns": 1
     }
   ]
 }
