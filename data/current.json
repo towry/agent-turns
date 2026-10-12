@@ -9,13 +9,13 @@
     {
       "date": "2026-10-12",
       "weekday": "Mon",
-      "turns": 97,
-      "toolCallCount": 1616,
+      "turns": 98,
+      "toolCallCount": 1649,
       "models": [
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 35
+          "turns": 36
         },
         {
           "id": "amp-low",
@@ -101,7 +101,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 35
+      "turns": 36
     },
     {
       "id": "amp-low",
