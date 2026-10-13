@@ -57,23 +57,23 @@
     {
       "date": "2026-10-13",
       "weekday": "Tue",
-      "turns": 19,
-      "toolCallCount": 264,
+      "turns": 23,
+      "toolCallCount": 325,
       "models": [
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 10
+          "turns": 12
+        },
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 5
         },
         {
           "id": "xiaomi/mimo-v2.6-pro",
           "kind": "model",
           "turns": 4
-        },
-        {
-          "id": "amp-low",
-          "kind": "model",
-          "turns": 3
         },
         {
           "id": "amp-medium",
@@ -127,12 +127,12 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 53
+      "turns": 55
     },
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 37
+      "turns": 39
     },
     {
       "id": "amp-medium",
