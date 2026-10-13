@@ -57,23 +57,23 @@
     {
       "date": "2026-10-13",
       "weekday": "Tue",
-      "turns": 74,
-      "toolCallCount": 835,
+      "turns": 90,
+      "toolCallCount": 995,
       "models": [
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 48
+          "turns": 60
         },
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 12
+          "turns": 13
         },
         {
           "id": "xiaomi/mimo-v2.6-pro",
           "kind": "model",
-          "turns": 8
+          "turns": 9
         },
         {
           "id": "amp-medium",
@@ -81,12 +81,17 @@
           "turns": 4
         },
         {
-          "id": "deepseek/deepseek-v4-flash-vision-exp",
+          "id": "openai/gpt-6.1-sol",
+          "kind": "model",
+          "turns": 2
+        },
+        {
+          "id": "anthropic/claude-opus-5-5",
           "kind": "model",
           "turns": 1
         },
         {
-          "id": "openai/gpt-6.1-sol",
+          "id": "deepseek/deepseek-v4-flash-vision-exp",
           "kind": "model",
           "turns": 1
         }
@@ -132,12 +137,12 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 91
+      "turns": 103
     },
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 46
+      "turns": 47
     },
     {
       "id": "amp-medium",
@@ -147,17 +152,17 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 8
+      "turns": 9
     },
     {
       "id": "xiaomi/mimo-v2.6-pro",
       "kind": "model",
-      "turns": 8
+      "turns": 9
     },
     {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 3
+      "turns": 4
     },
     {
       "id": "openai/gpt-6-astra",
