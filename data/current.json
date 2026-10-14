@@ -105,18 +105,23 @@
     {
       "date": "2026-10-14",
       "weekday": "Wed",
-      "turns": 102,
-      "toolCallCount": 1730,
+      "turns": 123,
+      "toolCallCount": 1908,
       "models": [
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 28
+          "turns": 40
         },
         {
           "id": "openai/gpt-6.1-sol",
           "kind": "model",
-          "turns": 28
+          "turns": 29
+        },
+        {
+          "id": "amp-medium",
+          "kind": "model",
+          "turns": 13
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -124,19 +129,14 @@
           "turns": 12
         },
         {
-          "id": "amp-medium",
+          "id": "deepseek/deepseek-v4.1-flash",
           "kind": "model",
-          "turns": 10
+          "turns": 11
         },
         {
           "id": "google-vertex/gemini-4-argon",
           "kind": "model",
-          "turns": 8
-        },
-        {
-          "id": "deepseek/deepseek-v4.1-flash",
-          "kind": "model",
-          "turns": 7
+          "turns": 9
         },
         {
           "id": "openai/gpt-6-sol",
@@ -188,7 +188,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 197
+      "turns": 209
     },
     {
       "id": "amp-low",
@@ -198,7 +198,7 @@
     {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 40
+      "turns": 41
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -208,12 +208,17 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 27
+      "turns": 30
     },
     {
       "id": "openai/gpt-6-sol",
       "kind": "model",
       "turns": 12
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "kind": "model",
+      "turns": 11
     },
     {
       "id": "xiaomi/mimo-v2.6-pro",
@@ -223,12 +228,7 @@
     {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
-      "turns": 8
-    },
-    {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "kind": "model",
-      "turns": 7
+      "turns": 9
     },
     {
       "id": "openai/gpt-6-astra",
