@@ -105,28 +105,33 @@
     {
       "date": "2026-10-14",
       "weekday": "Wed",
-      "turns": 31,
-      "toolCallCount": 635,
+      "turns": 41,
+      "toolCallCount": 888,
       "models": [
         {
           "id": "openai/gpt-6.1-sol",
           "kind": "model",
-          "turns": 13
+          "turns": 17
         },
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 8
+          "turns": 9
         },
         {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 5
+          "turns": 8
         },
         {
           "id": "openai/gpt-6-sol",
           "kind": "model",
           "turns": 4
+        },
+        {
+          "id": "amp-medium",
+          "kind": "model",
+          "turns": 2
         },
         {
           "id": "xiaomi/mimo-v2.6-pro",
@@ -168,7 +173,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 177
+      "turns": 178
     },
     {
       "id": "amp-low",
@@ -178,17 +183,17 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 28
+      "turns": 31
     },
     {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 25
+      "turns": 29
     },
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 17
+      "turns": 19
     },
     {
       "id": "openai/gpt-6-sol",
