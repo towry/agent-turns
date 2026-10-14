@@ -105,18 +105,18 @@
     {
       "date": "2026-10-14",
       "weekday": "Wed",
-      "turns": 168,
-      "toolCallCount": 2367,
+      "turns": 173,
+      "toolCallCount": 2488,
       "models": [
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 67
+          "turns": 70
         },
         {
           "id": "openai/gpt-6.1-sol",
           "kind": "model",
-          "turns": 35
+          "turns": 37
         },
         {
           "id": "amp-medium",
@@ -193,15 +193,15 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 236
-    },
-    {
-      "id": "amp-low",
-      "kind": "model",
-      "turns": 47
+      "turns": 239
     },
     {
       "id": "openai/gpt-6.1-sol",
+      "kind": "model",
+      "turns": 49
+    },
+    {
+      "id": "amp-low",
       "kind": "model",
       "turns": 47
     },
