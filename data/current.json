@@ -163,18 +163,18 @@
     {
       "date": "2026-10-15",
       "weekday": "Thu",
-      "turns": 18,
-      "toolCallCount": 164,
+      "turns": 33,
+      "toolCallCount": 403,
       "models": [
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 11
+          "turns": 24
         },
         {
           "id": "openai/gpt-6.1-sol",
           "kind": "model",
-          "turns": 4
+          "turns": 6
         },
         {
           "id": "google-vertex/gemini-4-argon",
@@ -209,12 +209,12 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 258
+      "turns": 271
     },
     {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 58
+      "turns": 60
     },
     {
       "id": "amp-low",
