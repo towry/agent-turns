@@ -163,38 +163,38 @@
     {
       "date": "2026-10-15",
       "weekday": "Thu",
-      "turns": 81,
-      "toolCallCount": 1183,
+      "turns": 102,
+      "toolCallCount": 1583,
       "models": [
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 58
-        },
-        {
-          "id": "openai/gpt-6.1-sol",
-          "kind": "model",
-          "turns": 8
+          "turns": 61
         },
         {
           "id": "google-vertex/gemini-4-argon",
           "kind": "model",
-          "turns": 6
+          "turns": 12
         },
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 3
+          "turns": 10
+        },
+        {
+          "id": "openai/gpt-6.1-sol",
+          "kind": "model",
+          "turns": 10
+        },
+        {
+          "id": "zhipuai/glm-5.3-flash",
+          "kind": "model",
+          "turns": 5
         },
         {
           "id": "amp-medium",
           "kind": "model",
           "turns": 3
-        },
-        {
-          "id": "zhipuai/glm-5.3-flash",
-          "kind": "model",
-          "turns": 2
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -229,17 +229,17 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 305
+      "turns": 308
     },
     {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 62
+      "turns": 64
     },
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 50
+      "turns": 57
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -254,7 +254,7 @@
     {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
-      "turns": 19
+      "turns": 25
     },
     {
       "id": "openai/gpt-6-sol",
@@ -272,14 +272,14 @@
       "turns": 11
     },
     {
+      "id": "zhipuai/glm-5.3-flash",
+      "kind": "model",
+      "turns": 7
+    },
+    {
       "id": "amp-ultra",
       "kind": "model",
       "turns": 5
-    },
-    {
-      "id": "zhipuai/glm-5.3-flash",
-      "kind": "model",
-      "turns": 4
     },
     {
       "id": "openai/gpt-6-astra",
