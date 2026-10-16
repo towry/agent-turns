@@ -211,18 +211,18 @@
     {
       "date": "2026-10-16",
       "weekday": "Fri",
-      "turns": 73,
-      "toolCallCount": 859,
+      "turns": 90,
+      "toolCallCount": 939,
       "models": [
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 47
+          "turns": 62
         },
         {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 15
+          "turns": 17
         },
         {
           "id": "amp-medium",
@@ -265,7 +265,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 384
+      "turns": 399
     },
     {
       "id": "openai/gpt-6.1-sol",
@@ -280,7 +280,7 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 55
+      "turns": 57
     },
     {
       "id": "amp-medium",
