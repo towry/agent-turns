@@ -211,26 +211,36 @@
     {
       "date": "2026-10-16",
       "weekday": "Fri",
-      "turns": 9,
-      "toolCallCount": 187,
+      "turns": 29,
+      "toolCallCount": 325,
       "models": [
-        {
-          "id": "anthropic/claude-opus-5-5",
-          "kind": "model",
-          "turns": 6
-        },
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 1
+          "turns": 15
         },
         {
-          "id": "google-vertex/gemini-4-argon",
+          "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 1
+          "turns": 7
+        },
+        {
+          "id": "amp-medium",
+          "kind": "model",
+          "turns": 2
+        },
+        {
+          "id": "anthropic/claude-opus-5",
+          "kind": "model",
+          "turns": 2
         },
         {
           "id": "zhipuai/glm-5.3-flash",
+          "kind": "model",
+          "turns": 2
+        },
+        {
+          "id": "google-vertex/gemini-4-argon",
           "kind": "model",
           "turns": 1
         }
@@ -255,7 +265,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 338
+      "turns": 352
     },
     {
       "id": "openai/gpt-6.1-sol",
@@ -270,12 +280,12 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 46
+      "turns": 47
     },
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 40
+      "turns": 42
     },
     {
       "id": "google-vertex/gemini-4-argon",
@@ -285,7 +295,7 @@
     {
       "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
-      "turns": 27
+      "turns": 28
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -308,14 +318,14 @@
       "turns": 5
     },
     {
+      "id": "anthropic/claude-opus-5",
+      "kind": "model",
+      "turns": 3
+    },
+    {
       "id": "openai/gpt-6-astra",
       "kind": "model",
       "turns": 2
-    },
-    {
-      "id": "anthropic/claude-opus-5",
-      "kind": "model",
-      "turns": 1
     },
     {
       "id": "deepseek/deepseek-v4-flash",
