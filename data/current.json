@@ -277,23 +277,23 @@
     {
       "date": "2026-10-18",
       "weekday": "Sun",
-      "turns": 13,
-      "toolCallCount": 224,
+      "turns": 16,
+      "toolCallCount": 298,
       "models": [
+        {
+          "id": "zhipuai/glm-5.3-flash",
+          "kind": "model",
+          "turns": 6
+        },
         {
           "id": "amp-high",
           "kind": "model",
           "turns": 5
         },
         {
-          "id": "zhipuai/glm-5.3-flash",
-          "kind": "model",
-          "turns": 5
-        },
-        {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 3
+          "turns": 5
         }
       ]
     }
@@ -307,12 +307,12 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 82
+      "turns": 84
     },
     {
       "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
-      "turns": 68
+      "turns": 69
     },
     {
       "id": "openai/gpt-6.1-sol",
