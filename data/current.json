@@ -9,28 +9,33 @@
     {
       "date": "2026-10-19",
       "weekday": "Mon",
-      "turns": 78,
-      "toolCallCount": 1144,
+      "turns": 114,
+      "toolCallCount": 1465,
       "models": [
         {
           "id": "openai/gpt-6-astra",
           "kind": "model",
-          "turns": 27
-        },
-        {
-          "id": "amp-high",
-          "kind": "model",
-          "turns": 20
-        },
-        {
-          "id": "openai/gpt-6-luna",
-          "kind": "model",
-          "turns": 11
+          "turns": 33
         },
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 8
+          "turns": 28
+        },
+        {
+          "id": "amp-high",
+          "kind": "model",
+          "turns": 22
+        },
+        {
+          "id": "openai/gpt-6-luna",
+          "kind": "model",
+          "turns": 14
+        },
+        {
+          "id": "deepseek/deepseek-v4.1-flash",
+          "kind": "model",
+          "turns": 7
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -41,11 +46,6 @@
           "id": "minimax/MiniMax-M3",
           "kind": "model",
           "turns": 3
-        },
-        {
-          "id": "deepseek/deepseek-v4.1-flash",
-          "kind": "model",
-          "turns": 2
         },
         {
           "id": "zhipuai/glm-5.3-flash",
@@ -106,22 +106,27 @@
     {
       "id": "openai/gpt-6-astra",
       "kind": "model",
-      "turns": 27
-    },
-    {
-      "id": "amp-high",
-      "kind": "model",
-      "turns": 20
-    },
-    {
-      "id": "openai/gpt-6-luna",
-      "kind": "model",
-      "turns": 11
+      "turns": 33
     },
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 8
+      "turns": 28
+    },
+    {
+      "id": "amp-high",
+      "kind": "model",
+      "turns": 22
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "kind": "model",
+      "turns": 14
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "kind": "model",
+      "turns": 7
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -132,11 +137,6 @@
       "id": "minimax/MiniMax-M3",
       "kind": "model",
       "turns": 3
-    },
-    {
-      "id": "deepseek/deepseek-v4.1-flash",
-      "kind": "model",
-      "turns": 2
     },
     {
       "id": "zhipuai/glm-5.3-flash",
