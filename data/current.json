@@ -9,8 +9,8 @@
     {
       "date": "2026-10-19",
       "weekday": "Mon",
-      "turns": 150,
-      "toolCallCount": 2293,
+      "turns": 151,
+      "toolCallCount": 2330,
       "models": [
         {
           "id": "amp-medium",
@@ -38,12 +38,12 @@
           "turns": 12
         },
         {
-          "id": "anthropic/claude-opus-5",
+          "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 6
+          "turns": 7
         },
         {
-          "id": "anthropic/claude-opus-5-5",
+          "id": "anthropic/claude-opus-5",
           "kind": "model",
           "turns": 6
         },
@@ -134,12 +134,12 @@
       "turns": 12
     },
     {
-      "id": "anthropic/claude-opus-5",
+      "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 6
+      "turns": 7
     },
     {
-      "id": "anthropic/claude-opus-5-5",
+      "id": "anthropic/claude-opus-5",
       "kind": "model",
       "turns": 6
     },
