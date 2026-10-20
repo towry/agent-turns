@@ -67,8 +67,8 @@
     {
       "date": "2026-10-20",
       "weekday": "Tue",
-      "turns": 105,
-      "toolCallCount": 2447,
+      "turns": 107,
+      "toolCallCount": 2491,
       "models": [
         {
           "id": "amp-medium",
@@ -109,6 +109,11 @@
           "id": "zhipuai/glm-5.3-flash",
           "kind": "model",
           "turns": 3
+        },
+        {
+          "id": "openai/gpt-6.1-sol",
+          "kind": "model",
+          "turns": 2
         }
       ]
     },
@@ -203,6 +208,11 @@
       "id": "minimax/MiniMax-M3",
       "kind": "model",
       "turns": 3
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "kind": "model",
+      "turns": 2
     }
   ]
 }
