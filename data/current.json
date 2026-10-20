@@ -67,8 +67,8 @@
     {
       "date": "2026-10-20",
       "weekday": "Tue",
-      "turns": 43,
-      "toolCallCount": 762,
+      "turns": 54,
+      "toolCallCount": 994,
       "models": [
         {
           "id": "amp-high",
@@ -78,15 +78,20 @@
         {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 7
+          "turns": 11
+        },
+        {
+          "id": "amp-medium",
+          "kind": "model",
+          "turns": 8
         },
         {
           "id": "google-vertex/gemini-4-argon",
           "kind": "model",
-          "turns": 7
+          "turns": 8
         },
         {
-          "id": "amp-medium",
+          "id": "xiaomi/mimo-v2.6-pro",
           "kind": "model",
           "turns": 6
         },
@@ -96,14 +101,9 @@
           "turns": 4
         },
         {
-          "id": "xiaomi/mimo-v2.6-pro",
-          "kind": "model",
-          "turns": 3
-        },
-        {
           "id": "openai/gpt-6-luna",
           "kind": "model",
-          "turns": 2
+          "turns": 3
         }
       ]
     },
@@ -145,14 +145,14 @@
   ],
   "models": [
     {
+      "id": "amp-medium",
+      "kind": "model",
+      "turns": 49
+    },
+    {
       "id": "openai/gpt-6-astra",
       "kind": "model",
       "turns": 48
-    },
-    {
-      "id": "amp-medium",
-      "kind": "model",
-      "turns": 47
     },
     {
       "id": "amp-high",
@@ -160,14 +160,14 @@
       "turns": 46
     },
     {
-      "id": "openai/gpt-6-luna",
-      "kind": "model",
-      "turns": 17
-    },
-    {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 15
+      "turns": 19
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "kind": "model",
+      "turns": 18
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -177,7 +177,7 @@
     {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
-      "turns": 8
+      "turns": 9
     },
     {
       "id": "anthropic/claude-opus-5",
@@ -185,12 +185,12 @@
       "turns": 6
     },
     {
-      "id": "minimax/MiniMax-M3",
+      "id": "xiaomi/mimo-v2.6-pro",
       "kind": "model",
-      "turns": 3
+      "turns": 6
     },
     {
-      "id": "xiaomi/mimo-v2.6-pro",
+      "id": "minimax/MiniMax-M3",
       "kind": "model",
       "turns": 3
     },
