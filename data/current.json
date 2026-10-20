@@ -67,8 +67,8 @@
     {
       "date": "2026-10-20",
       "weekday": "Tue",
-      "turns": 109,
-      "toolCallCount": 2505,
+      "turns": 111,
+      "toolCallCount": 2535,
       "models": [
         {
           "id": "amp-medium",
@@ -78,7 +78,7 @@
         {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 19
+          "turns": 20
         },
         {
           "id": "google-vertex/gemini-4-argon",
@@ -114,6 +114,11 @@
           "id": "zhipuai/glm-5.3-flash",
           "kind": "model",
           "turns": 3
+        },
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 1
         }
       ]
     },
@@ -172,7 +177,7 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 27
+      "turns": 28
     },
     {
       "id": "openai/gpt-6-luna",
@@ -213,6 +218,11 @@
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
       "turns": 3
+    },
+    {
+      "id": "amp-low",
+      "kind": "model",
+      "turns": 1
     }
   ]
 }
