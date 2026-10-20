@@ -67,28 +67,28 @@
     {
       "date": "2026-10-20",
       "weekday": "Tue",
-      "turns": 54,
-      "toolCallCount": 994,
+      "turns": 67,
+      "toolCallCount": 1299,
       "models": [
+        {
+          "id": "anthropic/claude-opus-5-5",
+          "kind": "model",
+          "turns": 16
+        },
         {
           "id": "amp-high",
           "kind": "model",
           "turns": 14
         },
         {
-          "id": "anthropic/claude-opus-5-5",
-          "kind": "model",
-          "turns": 11
-        },
-        {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 8
+          "turns": 10
         },
         {
           "id": "google-vertex/gemini-4-argon",
           "kind": "model",
-          "turns": 8
+          "turns": 9
         },
         {
           "id": "xiaomi/mimo-v2.6-pro",
@@ -96,12 +96,17 @@
           "turns": 6
         },
         {
+          "id": "openai/gpt-6-luna",
+          "kind": "model",
+          "turns": 5
+        },
+        {
           "id": "openai/gpt-6-astra",
           "kind": "model",
           "turns": 4
         },
         {
-          "id": "openai/gpt-6-luna",
+          "id": "zhipuai/glm-5.3-flash",
           "kind": "model",
           "turns": 3
         }
@@ -147,7 +152,7 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 49
+      "turns": 51
     },
     {
       "id": "openai/gpt-6-astra",
@@ -162,12 +167,12 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 19
+      "turns": 24
     },
     {
       "id": "openai/gpt-6-luna",
       "kind": "model",
-      "turns": 18
+      "turns": 20
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
@@ -177,7 +182,7 @@
     {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
-      "turns": 9
+      "turns": 10
     },
     {
       "id": "anthropic/claude-opus-5",
@@ -190,12 +195,12 @@
       "turns": 6
     },
     {
-      "id": "minimax/MiniMax-M3",
+      "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
-      "turns": 3
+      "turns": 6
     },
     {
-      "id": "zhipuai/glm-5.3-flash",
+      "id": "minimax/MiniMax-M3",
       "kind": "model",
       "turns": 3
     }
