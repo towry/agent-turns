@@ -125,28 +125,28 @@
     {
       "date": "2026-10-21",
       "weekday": "Wed",
-      "turns": 126,
-      "toolCallCount": 1418,
+      "turns": 151,
+      "toolCallCount": 1660,
       "models": [
         {
           "id": "zhipuai/glm-5.3-flash",
           "kind": "model",
-          "turns": 40
+          "turns": 45
         },
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 35
+          "turns": 44
         },
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 24
+          "turns": 26
         },
         {
           "id": "google-vertex/gemini-4-argon",
           "kind": "model",
-          "turns": 12
+          "turns": 19
         },
         {
           "id": "openai/gpt-6-astra",
@@ -156,7 +156,7 @@
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 3
+          "turns": 4
         },
         {
           "id": "openai/gpt-6-luna",
@@ -165,6 +165,11 @@
         },
         {
           "id": "anthropic/claude-opus-5-5",
+          "kind": "model",
+          "turns": 1
+        },
+        {
+          "id": "deepseek/deepseek-v4-flash",
           "kind": "model",
           "turns": 1
         }
@@ -203,7 +208,7 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 99
+      "turns": 101
     },
     {
       "id": "openai/gpt-6-astra",
@@ -213,25 +218,25 @@
     {
       "id": "amp-high",
       "kind": "model",
+      "turns": 54
+    },
+    {
+      "id": "amp-low",
+      "kind": "model",
       "turns": 53
     },
     {
       "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
-      "turns": 46
-    },
-    {
-      "id": "amp-low",
-      "kind": "model",
-      "turns": 44
-    },
-    {
-      "id": "anthropic/claude-opus-5-5",
-      "kind": "model",
-      "turns": 32
+      "turns": 51
     },
     {
       "id": "google-vertex/gemini-4-argon",
+      "kind": "model",
+      "turns": 39
+    },
+    {
+      "id": "anthropic/claude-opus-5-5",
       "kind": "model",
       "turns": 32
     },
@@ -264,6 +269,11 @@
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
       "turns": 3
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "kind": "model",
+      "turns": 1
     }
   ]
 }
