@@ -125,43 +125,43 @@
     {
       "date": "2026-10-21",
       "weekday": "Wed",
-      "turns": 172,
-      "toolCallCount": 2080,
+      "turns": 194,
+      "toolCallCount": 2319,
       "models": [
-        {
-          "id": "amp-low",
-          "kind": "model",
-          "turns": 47
-        },
         {
           "id": "zhipuai/glm-5.3-flash",
           "kind": "model",
-          "turns": 45
+          "turns": 52
+        },
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 49
         },
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 27
+          "turns": 31
         },
         {
           "id": "google-vertex/gemini-4-argon",
           "kind": "model",
-          "turns": 20
+          "turns": 22
         },
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 18
+          "turns": 19
+        },
+        {
+          "id": "deepseek/deepseek-v4-flash",
+          "kind": "model",
+          "turns": 9
         },
         {
           "id": "openai/gpt-6-astra",
           "kind": "model",
           "turns": 8
-        },
-        {
-          "id": "deepseek/deepseek-v4-flash",
-          "kind": "model",
-          "turns": 3
         },
         {
           "id": "openai/gpt-6-luna",
@@ -208,17 +208,22 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 102
+      "turns": 106
     },
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 68
+      "turns": 69
     },
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 56
+      "turns": 58
+    },
+    {
+      "id": "zhipuai/glm-5.3-flash",
+      "kind": "model",
+      "turns": 58
     },
     {
       "id": "openai/gpt-6-astra",
@@ -226,14 +231,9 @@
       "turns": 56
     },
     {
-      "id": "zhipuai/glm-5.3-flash",
-      "kind": "model",
-      "turns": 51
-    },
-    {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
-      "turns": 40
+      "turns": 42
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -251,6 +251,11 @@
       "turns": 12
     },
     {
+      "id": "deepseek/deepseek-v4-flash",
+      "kind": "model",
+      "turns": 9
+    },
+    {
       "id": "anthropic/claude-opus-5",
       "kind": "model",
       "turns": 6
@@ -259,11 +264,6 @@
       "id": "xiaomi/mimo-v2.6-pro",
       "kind": "model",
       "turns": 6
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash",
-      "kind": "model",
-      "turns": 3
     },
     {
       "id": "minimax/MiniMax-M3",
