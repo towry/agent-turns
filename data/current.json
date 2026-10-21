@@ -125,23 +125,23 @@
     {
       "date": "2026-10-21",
       "weekday": "Wed",
-      "turns": 62,
-      "toolCallCount": 638,
+      "turns": 83,
+      "toolCallCount": 905,
       "models": [
         {
           "id": "zhipuai/glm-5.3-flash",
           "kind": "model",
-          "turns": 20
+          "turns": 29
         },
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 17
+          "turns": 21
         },
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 12
+          "turns": 19
         },
         {
           "id": "openai/gpt-6-astra",
@@ -157,6 +157,11 @@
           "id": "openai/gpt-6-luna",
           "kind": "model",
           "turns": 3
+        },
+        {
+          "id": "google-vertex/gemini-4-argon",
+          "kind": "model",
+          "turns": 1
         }
       ]
     },
@@ -193,7 +198,7 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 87
+      "turns": 94
     },
     {
       "id": "openai/gpt-6-astra",
@@ -206,6 +211,11 @@
       "turns": 53
     },
     {
+      "id": "zhipuai/glm-5.3-flash",
+      "kind": "model",
+      "turns": 35
+    },
+    {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
       "turns": 31
@@ -213,12 +223,7 @@
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 26
-    },
-    {
-      "id": "zhipuai/glm-5.3-flash",
-      "kind": "model",
-      "turns": 26
+      "turns": 30
     },
     {
       "id": "openai/gpt-6-luna",
@@ -228,7 +233,7 @@
     {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
-      "turns": 20
+      "turns": 21
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
