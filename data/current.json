@@ -125,13 +125,13 @@
     {
       "date": "2026-10-21",
       "weekday": "Wed",
-      "turns": 267,
-      "toolCallCount": 3161,
+      "turns": 270,
+      "toolCallCount": 3183,
       "models": [
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 76
+          "turns": 77
         },
         {
           "id": "zhipuai/glm-5.3-flash",
@@ -159,14 +159,14 @@
           "turns": 9
         },
         {
-          "id": "openai/gpt-6-astra",
+          "id": "anthropic/claude-opus-5-5",
           "kind": "model",
           "turns": 8
         },
         {
-          "id": "anthropic/claude-opus-5-5",
+          "id": "openai/gpt-6-astra",
           "kind": "model",
-          "turns": 6
+          "turns": 8
         },
         {
           "id": "openai/gpt-6-luna",
@@ -218,7 +218,7 @@
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 85
+      "turns": 86
     },
     {
       "id": "zhipuai/glm-5.3-flash",
@@ -238,7 +238,7 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 37
+      "turns": 39
     },
     {
       "id": "openai/gpt-6-luna",
