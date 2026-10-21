@@ -125,26 +125,36 @@
     {
       "date": "2026-10-21",
       "weekday": "Wed",
-      "turns": 23,
-      "toolCallCount": 190,
+      "turns": 62,
+      "toolCallCount": 638,
       "models": [
+        {
+          "id": "zhipuai/glm-5.3-flash",
+          "kind": "model",
+          "turns": 20
+        },
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 11
+          "turns": 17
         },
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 5
+          "turns": 12
         },
         {
           "id": "openai/gpt-6-astra",
           "kind": "model",
-          "turns": 4
+          "turns": 7
         },
         {
           "id": "amp-high",
+          "kind": "model",
+          "turns": 3
+        },
+        {
+          "id": "openai/gpt-6-luna",
           "kind": "model",
           "turns": 3
         }
@@ -183,7 +193,12 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 80
+      "turns": 87
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "kind": "model",
+      "turns": 55
     },
     {
       "id": "amp-high",
@@ -191,24 +206,24 @@
       "turns": 53
     },
     {
-      "id": "openai/gpt-6-astra",
-      "kind": "model",
-      "turns": 52
-    },
-    {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
       "turns": 31
     },
     {
-      "id": "openai/gpt-6-luna",
-      "kind": "model",
-      "turns": 21
-    },
-    {
       "id": "amp-low",
       "kind": "model",
-      "turns": 20
+      "turns": 26
+    },
+    {
+      "id": "zhipuai/glm-5.3-flash",
+      "kind": "model",
+      "turns": 26
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "kind": "model",
+      "turns": 24
     },
     {
       "id": "google-vertex/gemini-4-argon",
@@ -227,11 +242,6 @@
     },
     {
       "id": "xiaomi/mimo-v2.6-pro",
-      "kind": "model",
-      "turns": 6
-    },
-    {
-      "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
       "turns": 6
     },
