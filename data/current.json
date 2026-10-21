@@ -125,28 +125,33 @@
     {
       "date": "2026-10-21",
       "weekday": "Wed",
-      "turns": 83,
-      "toolCallCount": 905,
+      "turns": 126,
+      "toolCallCount": 1418,
       "models": [
         {
           "id": "zhipuai/glm-5.3-flash",
           "kind": "model",
-          "turns": 29
+          "turns": 40
         },
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 21
+          "turns": 35
         },
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 19
+          "turns": 24
+        },
+        {
+          "id": "google-vertex/gemini-4-argon",
+          "kind": "model",
+          "turns": 12
         },
         {
           "id": "openai/gpt-6-astra",
           "kind": "model",
-          "turns": 7
+          "turns": 8
         },
         {
           "id": "amp-high",
@@ -159,7 +164,7 @@
           "turns": 3
         },
         {
-          "id": "google-vertex/gemini-4-argon",
+          "id": "anthropic/claude-opus-5-5",
           "kind": "model",
           "turns": 1
         }
@@ -198,12 +203,12 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 94
+      "turns": 99
     },
     {
       "id": "openai/gpt-6-astra",
       "kind": "model",
-      "turns": 55
+      "turns": 56
     },
     {
       "id": "amp-high",
@@ -213,27 +218,27 @@
     {
       "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
-      "turns": 35
-    },
-    {
-      "id": "anthropic/claude-opus-5-5",
-      "kind": "model",
-      "turns": 31
+      "turns": 46
     },
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 30
+      "turns": 44
+    },
+    {
+      "id": "anthropic/claude-opus-5-5",
+      "kind": "model",
+      "turns": 32
+    },
+    {
+      "id": "google-vertex/gemini-4-argon",
+      "kind": "model",
+      "turns": 32
     },
     {
       "id": "openai/gpt-6-luna",
       "kind": "model",
       "turns": 24
-    },
-    {
-      "id": "google-vertex/gemini-4-argon",
-      "kind": "model",
-      "turns": 21
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
