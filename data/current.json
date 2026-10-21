@@ -67,8 +67,8 @@
     {
       "date": "2026-10-20",
       "weekday": "Tue",
-      "turns": 117,
-      "toolCallCount": 2627,
+      "turns": 125,
+      "toolCallCount": 2752,
       "models": [
         {
           "id": "amp-medium",
@@ -78,7 +78,7 @@
         {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 21
+          "turns": 23
         },
         {
           "id": "google-vertex/gemini-4-argon",
@@ -88,12 +88,12 @@
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 15
+          "turns": 18
         },
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 6
+          "turns": 9
         },
         {
           "id": "openai/gpt-6-luna",
@@ -125,9 +125,25 @@
     {
       "date": "2026-10-21",
       "weekday": "Wed",
-      "turns": 0,
-      "toolCallCount": 0,
-      "models": []
+      "turns": 14,
+      "toolCallCount": 135,
+      "models": [
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 9
+        },
+        {
+          "id": "openai/gpt-6-astra",
+          "kind": "model",
+          "turns": 3
+        },
+        {
+          "id": "amp-high",
+          "kind": "model",
+          "turns": 2
+        }
+      ]
     },
     {
       "date": "2026-10-22",
@@ -165,19 +181,19 @@
       "turns": 75
     },
     {
-      "id": "openai/gpt-6-astra",
-      "kind": "model",
-      "turns": 48
-    },
-    {
       "id": "amp-high",
       "kind": "model",
-      "turns": 47
+      "turns": 52
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "kind": "model",
+      "turns": 51
     },
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 29
+      "turns": 31
     },
     {
       "id": "openai/gpt-6-luna",
@@ -190,14 +206,14 @@
       "turns": 20
     },
     {
+      "id": "amp-low",
+      "kind": "model",
+      "turns": 18
+    },
+    {
       "id": "deepseek/deepseek-v4.1-flash",
       "kind": "model",
       "turns": 12
-    },
-    {
-      "id": "amp-low",
-      "kind": "model",
-      "turns": 6
     },
     {
       "id": "anthropic/claude-opus-5",
