@@ -125,13 +125,13 @@
     {
       "date": "2026-10-21",
       "weekday": "Wed",
-      "turns": 270,
-      "toolCallCount": 3183,
+      "turns": 277,
+      "toolCallCount": 3504,
       "models": [
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 77
+          "turns": 82
         },
         {
           "id": "zhipuai/glm-5.3-flash",
@@ -141,7 +141,7 @@
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 41
+          "turns": 43
         },
         {
           "id": "amp-high",
@@ -178,9 +178,15 @@
     {
       "date": "2026-10-22",
       "weekday": "Thu",
-      "turns": 0,
-      "toolCallCount": 0,
-      "models": []
+      "turns": 4,
+      "toolCallCount": 69,
+      "models": [
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 4
+        }
+      ]
     },
     {
       "date": "2026-10-23",
@@ -208,17 +214,17 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 116
+      "turns": 118
+    },
+    {
+      "id": "amp-low",
+      "kind": "model",
+      "turns": 95
     },
     {
       "id": "amp-high",
       "kind": "model",
       "turns": 87
-    },
-    {
-      "id": "amp-low",
-      "kind": "model",
-      "turns": 86
     },
     {
       "id": "zhipuai/glm-5.3-flash",
