@@ -178,28 +178,28 @@
     {
       "date": "2026-10-22",
       "weekday": "Thu",
-      "turns": 138,
-      "toolCallCount": 2343,
+      "turns": 152,
+      "toolCallCount": 2578,
       "models": [
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 64
+          "turns": 67
         },
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 26
+          "turns": 29
+        },
+        {
+          "id": "anthropic/claude-opus-5-5",
+          "kind": "model",
+          "turns": 27
         },
         {
           "id": "xai/grok-4.7",
           "kind": "model",
           "turns": 23
-        },
-        {
-          "id": "anthropic/claude-opus-5-5",
-          "kind": "model",
-          "turns": 19
         },
         {
           "id": "amp-high",
@@ -239,12 +239,12 @@
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 155
+      "turns": 158
     },
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 144
+      "turns": 147
     },
     {
       "id": "amp-high",
@@ -254,7 +254,7 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 58
+      "turns": 66
     },
     {
       "id": "zhipuai/glm-5.3-flash",
