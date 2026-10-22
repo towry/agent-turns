@@ -178,18 +178,18 @@
     {
       "date": "2026-10-22",
       "weekday": "Thu",
-      "turns": 21,
-      "toolCallCount": 306,
+      "turns": 33,
+      "toolCallCount": 526,
       "models": [
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 9
+          "turns": 15
         },
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 6
+          "turns": 12
         },
         {
           "id": "amp-high",
@@ -229,12 +229,12 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 124
+      "turns": 130
     },
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 100
+      "turns": 106
     },
     {
       "id": "amp-high",
