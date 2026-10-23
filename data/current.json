@@ -221,38 +221,48 @@
     {
       "date": "2026-10-23",
       "weekday": "Fri",
-      "turns": 180,
-      "toolCallCount": 2413,
+      "turns": 199,
+      "toolCallCount": 2641,
       "models": [
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 62
+          "turns": 63
         },
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 50
+          "turns": 54
         },
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 35
+          "turns": 37
         },
         {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 30
+          "turns": 31
+        },
+        {
+          "id": "openai/gpt-6-astra",
+          "kind": "model",
+          "turns": 5
+        },
+        {
+          "id": "zhipuai/glm-5.3-flash",
+          "kind": "model",
+          "turns": 4
+        },
+        {
+          "id": "minimax/minimax-m3.1-flash",
+          "kind": "model",
+          "turns": 3
         },
         {
           "id": "google-vertex/gemini-4-argon",
           "kind": "model",
           "turns": 2
-        },
-        {
-          "id": "zhipuai/glm-5.3-flash",
-          "kind": "model",
-          "turns": 1
         }
       ]
     },
@@ -275,32 +285,32 @@
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 233
+      "turns": 237
     },
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 209
+      "turns": 210
     },
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 134
+      "turns": 136
     },
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 114
+      "turns": 115
     },
     {
       "id": "openai/gpt-6-astra",
       "kind": "model",
-      "turns": 70
+      "turns": 75
     },
     {
       "id": "zhipuai/glm-5.3-flash",
       "kind": "model",
-      "turns": 59
+      "turns": 62
     },
     {
       "id": "google-vertex/gemini-4-argon",
@@ -339,6 +349,11 @@
     },
     {
       "id": "minimax/MiniMax-M3",
+      "kind": "model",
+      "turns": 3
+    },
+    {
+      "id": "minimax/minimax-m3.1-flash",
       "kind": "model",
       "turns": 3
     },
