@@ -221,23 +221,23 @@
     {
       "date": "2026-10-23",
       "weekday": "Fri",
-      "turns": 220,
-      "toolCallCount": 2803,
+      "turns": 252,
+      "toolCallCount": 3185,
       "models": [
+        {
+          "id": "amp-high",
+          "kind": "model",
+          "turns": 73
+        },
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 63
+          "turns": 73
         },
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 57
-        },
-        {
-          "id": "amp-high",
-          "kind": "model",
-          "turns": 55
+          "turns": 60
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -255,14 +255,14 @@
           "turns": 4
         },
         {
-          "id": "minimax/minimax-m3.1-flash",
+          "id": "google-vertex/gemini-4-argon",
           "kind": "model",
           "turns": 3
         },
         {
-          "id": "google-vertex/gemini-4-argon",
+          "id": "minimax/minimax-m3.1-flash",
           "kind": "model",
-          "turns": 2
+          "turns": 3
         }
       ]
     },
@@ -285,17 +285,17 @@
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 240
+      "turns": 243
     },
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 210
+      "turns": 220
     },
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 154
+      "turns": 172
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -315,7 +315,7 @@
     {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
-      "turns": 58
+      "turns": 59
     },
     {
       "id": "openai/gpt-6-luna",
