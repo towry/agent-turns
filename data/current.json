@@ -221,8 +221,8 @@
     {
       "date": "2026-10-23",
       "weekday": "Fri",
-      "turns": 210,
-      "toolCallCount": 2719,
+      "turns": 220,
+      "toolCallCount": 2803,
       "models": [
         {
           "id": "amp-medium",
@@ -237,7 +237,7 @@
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 45
+          "turns": 55
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -295,7 +295,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 144
+      "turns": 154
     },
     {
       "id": "anthropic/claude-opus-5-5",
