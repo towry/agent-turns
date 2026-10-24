@@ -269,13 +269,18 @@
     {
       "date": "2026-10-24",
       "weekday": "Sat",
-      "turns": 46,
-      "toolCallCount": 819,
+      "turns": 57,
+      "toolCallCount": 1110,
       "models": [
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 26
+          "turns": 33
+        },
+        {
+          "id": "amp-medium",
+          "kind": "model",
+          "turns": 6
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -296,11 +301,6 @@
           "id": "google-vertex/gemini-4-argon",
           "kind": "model",
           "turns": 3
-        },
-        {
-          "id": "amp-medium",
-          "kind": "model",
-          "turns": 2
         }
       ]
     },
@@ -316,12 +316,12 @@
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 284
+      "turns": 291
     },
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 222
+      "turns": 226
     },
     {
       "id": "amp-high",
