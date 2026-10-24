@@ -269,16 +269,16 @@
     {
       "date": "2026-10-24",
       "weekday": "Sat",
-      "turns": 11,
-      "toolCallCount": 281,
+      "turns": 17,
+      "toolCallCount": 309,
       "models": [
         {
-          "id": "amp-high",
+          "id": "amp-low",
           "kind": "model",
-          "turns": 4
+          "turns": 9
         },
         {
-          "id": "amp-low",
+          "id": "amp-high",
           "kind": "model",
           "turns": 4
         },
@@ -290,7 +290,7 @@
         {
           "id": "google-vertex/gemini-4-argon",
           "kind": "model",
-          "turns": 1
+          "turns": 2
         }
       ]
     },
@@ -306,7 +306,7 @@
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 262
+      "turns": 267
     },
     {
       "id": "amp-medium",
@@ -331,7 +331,7 @@
     {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
-      "turns": 62
+      "turns": 63
     },
     {
       "id": "zhipuai/glm-5.3-flash",
