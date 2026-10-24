@@ -269,26 +269,26 @@
     {
       "date": "2026-10-24",
       "weekday": "Sat",
-      "turns": 17,
-      "toolCallCount": 309,
+      "turns": 21,
+      "toolCallCount": 396,
       "models": [
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 9
+          "turns": 11
         },
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 4
-        },
-        {
-          "id": "anthropic/claude-opus-5-5",
-          "kind": "model",
-          "turns": 2
+          "turns": 5
         },
         {
           "id": "google-vertex/gemini-4-argon",
+          "kind": "model",
+          "turns": 3
+        },
+        {
+          "id": "anthropic/claude-opus-5-5",
           "kind": "model",
           "turns": 2
         }
@@ -306,7 +306,7 @@
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 267
+      "turns": 269
     },
     {
       "id": "amp-medium",
@@ -316,7 +316,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 194
+      "turns": 195
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -331,7 +331,7 @@
     {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
-      "turns": 63
+      "turns": 64
     },
     {
       "id": "zhipuai/glm-5.3-flash",
