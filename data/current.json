@@ -307,18 +307,23 @@
     {
       "date": "2026-10-25",
       "weekday": "Sun",
-      "turns": 3,
-      "toolCallCount": 77,
+      "turns": 14,
+      "toolCallCount": 153,
       "models": [
-        {
-          "id": "amp-low",
-          "kind": "model",
-          "turns": 1
-        },
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 1
+          "turns": 6
+        },
+        {
+          "id": "anthropic/claude-opus-5-5",
+          "kind": "model",
+          "turns": 4
+        },
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 3
         },
         {
           "id": "google-vertex/gemini-4-argon",
@@ -332,12 +337,12 @@
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 301
+      "turns": 303
     },
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 233
+      "turns": 238
     },
     {
       "id": "amp-high",
@@ -347,7 +352,7 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 121
+      "turns": 125
     },
     {
       "id": "openai/gpt-6-astra",
