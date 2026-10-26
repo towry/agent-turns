@@ -9,18 +9,23 @@
     {
       "date": "2026-10-26",
       "weekday": "Mon",
-      "turns": 9,
-      "toolCallCount": 82,
+      "turns": 21,
+      "toolCallCount": 257,
       "models": [
-        {
-          "id": "amp-medium",
-          "kind": "model",
-          "turns": 5
-        },
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 4
+          "turns": 7
+        },
+        {
+          "id": "amp-medium",
+          "kind": "model",
+          "turns": 7
+        },
+        {
+          "id": "openai/gpt-6.1-sol",
+          "kind": "model",
+          "turns": 7
         }
       ]
     },
@@ -69,14 +74,19 @@
   ],
   "models": [
     {
-      "id": "amp-medium",
-      "kind": "model",
-      "turns": 5
-    },
-    {
       "id": "amp-high",
       "kind": "model",
-      "turns": 4
+      "turns": 7
+    },
+    {
+      "id": "amp-medium",
+      "kind": "model",
+      "turns": 7
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "kind": "model",
+      "turns": 7
     }
   ]
 }
