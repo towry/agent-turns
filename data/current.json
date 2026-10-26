@@ -9,18 +9,23 @@
     {
       "date": "2026-10-26",
       "weekday": "Mon",
-      "turns": 41,
-      "toolCallCount": 954,
+      "turns": 68,
+      "toolCallCount": 1279,
       "models": [
         {
           "id": "openai/gpt-6.1-sol",
           "kind": "model",
-          "turns": 15
+          "turns": 19
         },
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 10
+          "turns": 15
+        },
+        {
+          "id": "xai/grok-4.6",
+          "kind": "model",
+          "turns": 15
         },
         {
           "id": "amp-high",
@@ -35,7 +40,12 @@
         {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 3
+          "turns": 4
+        },
+        {
+          "id": "minimax/minimax-m3.1-flash",
+          "kind": "model",
+          "turns": 2
         },
         {
           "id": "openai/gpt-6-astra",
@@ -91,12 +101,17 @@
     {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 15
+      "turns": 19
     },
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 10
+      "turns": 15
+    },
+    {
+      "id": "xai/grok-4.6",
+      "kind": "model",
+      "turns": 15
     },
     {
       "id": "amp-high",
@@ -111,7 +126,12 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 3
+      "turns": 4
+    },
+    {
+      "id": "minimax/minimax-m3.1-flash",
+      "kind": "model",
+      "turns": 2
     },
     {
       "id": "openai/gpt-6-astra",
