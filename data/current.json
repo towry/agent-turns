@@ -9,13 +9,13 @@
     {
       "date": "2026-10-26",
       "weekday": "Mon",
-      "turns": 38,
-      "toolCallCount": 579,
+      "turns": 41,
+      "toolCallCount": 954,
       "models": [
         {
           "id": "openai/gpt-6.1-sol",
           "kind": "model",
-          "turns": 13
+          "turns": 15
         },
         {
           "id": "amp-medium",
@@ -30,7 +30,7 @@
         {
           "id": "xai/grok-4.7",
           "kind": "model",
-          "turns": 4
+          "turns": 5
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -91,7 +91,7 @@
     {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 13
+      "turns": 15
     },
     {
       "id": "amp-medium",
@@ -106,7 +106,7 @@
     {
       "id": "xai/grok-4.7",
       "kind": "model",
-      "turns": 4
+      "turns": 5
     },
     {
       "id": "anthropic/claude-opus-5-5",
