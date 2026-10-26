@@ -9,8 +9,8 @@
     {
       "date": "2026-10-26",
       "weekday": "Mon",
-      "turns": 151,
-      "toolCallCount": 3543,
+      "turns": 153,
+      "toolCallCount": 3549,
       "models": [
         {
           "id": "xai/grok-4.7",
@@ -20,7 +20,7 @@
         {
           "id": "openai/gpt-6.1-sol",
           "kind": "model",
-          "turns": 34
+          "turns": 35
         },
         {
           "id": "amp-medium",
@@ -46,6 +46,11 @@
           "id": "minimax/minimax-m3.1-flash",
           "kind": "model",
           "turns": 2
+        },
+        {
+          "id": "google-vertex/gemini-4-argon",
+          "kind": "model",
+          "turns": 1
         },
         {
           "id": "openai/gpt-6-astra",
@@ -106,7 +111,7 @@
     {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 34
+      "turns": 35
     },
     {
       "id": "amp-medium",
@@ -132,6 +137,11 @@
       "id": "minimax/minimax-m3.1-flash",
       "kind": "model",
       "turns": 2
+    },
+    {
+      "id": "google-vertex/gemini-4-argon",
+      "kind": "model",
+      "turns": 1
     },
     {
       "id": "openai/gpt-6-astra",
