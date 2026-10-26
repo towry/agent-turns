@@ -9,18 +9,18 @@
     {
       "date": "2026-10-26",
       "weekday": "Mon",
-      "turns": 68,
-      "toolCallCount": 1279,
+      "turns": 87,
+      "toolCallCount": 1771,
       "models": [
         {
           "id": "openai/gpt-6.1-sol",
           "kind": "model",
-          "turns": 19
+          "turns": 23
         },
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 15
+          "turns": 17
         },
         {
           "id": "xai/grok-4.6",
@@ -28,19 +28,19 @@
           "turns": 15
         },
         {
-          "id": "amp-high",
-          "kind": "model",
-          "turns": 7
-        },
-        {
           "id": "xai/grok-4.7",
           "kind": "model",
-          "turns": 5
+          "turns": 15
+        },
+        {
+          "id": "amp-high",
+          "kind": "model",
+          "turns": 8
         },
         {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 4
+          "turns": 6
         },
         {
           "id": "minimax/minimax-m3.1-flash",
@@ -101,12 +101,12 @@
     {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 19
+      "turns": 23
     },
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 15
+      "turns": 17
     },
     {
       "id": "xai/grok-4.6",
@@ -114,19 +114,19 @@
       "turns": 15
     },
     {
-      "id": "amp-high",
-      "kind": "model",
-      "turns": 7
-    },
-    {
       "id": "xai/grok-4.7",
       "kind": "model",
-      "turns": 5
+      "turns": 15
+    },
+    {
+      "id": "amp-high",
+      "kind": "model",
+      "turns": 8
     },
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 4
+      "turns": 6
     },
     {
       "id": "minimax/minimax-m3.1-flash",
