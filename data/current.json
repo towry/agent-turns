@@ -62,8 +62,8 @@
     {
       "date": "2026-10-27",
       "weekday": "Tue",
-      "turns": 138,
-      "toolCallCount": 2770,
+      "turns": 143,
+      "toolCallCount": 2785,
       "models": [
         {
           "id": "amp-medium",
@@ -81,6 +81,11 @@
           "turns": 17
         },
         {
+          "id": "anthropic/claude-opus-5-5",
+          "kind": "model",
+          "turns": 16
+        },
+        {
           "id": "amp-high",
           "kind": "model",
           "turns": 14
@@ -89,11 +94,6 @@
           "id": "xai/grok-4.6",
           "kind": "model",
           "turns": 14
-        },
-        {
-          "id": "anthropic/claude-opus-5-5",
-          "kind": "model",
-          "turns": 11
         }
       ]
     },
@@ -145,12 +145,12 @@
       "turns": 57
     },
     {
-      "id": "amp-high",
+      "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 39
+      "turns": 44
     },
     {
-      "id": "anthropic/claude-opus-5-5",
+      "id": "amp-high",
       "kind": "model",
       "turns": 39
     },
