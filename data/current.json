@@ -100,13 +100,13 @@
     {
       "date": "2026-10-28",
       "weekday": "Wed",
-      "turns": 155,
-      "toolCallCount": 2867,
+      "turns": 169,
+      "toolCallCount": 3424,
       "models": [
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 64
+          "turns": 74
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -119,14 +119,14 @@
           "turns": 22
         },
         {
+          "id": "google-vertex/gemini-4-argon",
+          "kind": "model",
+          "turns": 8
+        },
+        {
           "id": "amp-low",
           "kind": "model",
           "turns": 6
-        },
-        {
-          "id": "google-vertex/gemini-4-argon",
-          "kind": "model",
-          "turns": 4
         },
         {
           "id": "xai/grok-4.6",
@@ -168,7 +168,7 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 148
+      "turns": 158
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -186,14 +186,14 @@
       "turns": 44
     },
     {
+      "id": "google-vertex/gemini-4-argon",
+      "kind": "model",
+      "turns": 38
+    },
+    {
       "id": "xai/grok-4.7",
       "kind": "model",
       "turns": 37
-    },
-    {
-      "id": "google-vertex/gemini-4-argon",
-      "kind": "model",
-      "turns": 34
     },
     {
       "id": "xai/grok-4.6",
