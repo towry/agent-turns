@@ -62,8 +62,8 @@
     {
       "date": "2026-10-27",
       "weekday": "Tue",
-      "turns": 154,
-      "toolCallCount": 2860,
+      "turns": 180,
+      "toolCallCount": 3492,
       "models": [
         {
           "id": "amp-medium",
@@ -71,24 +71,24 @@
           "turns": 61
         },
         {
+          "id": "openai/gpt-6.1-sol",
+          "kind": "model",
+          "turns": 33
+        },
+        {
           "id": "anthropic/claude-opus-5-5",
           "kind": "model",
-          "turns": 24
+          "turns": 27
         },
         {
           "id": "google-vertex/gemini-4-argon",
           "kind": "model",
-          "turns": 21
-        },
-        {
-          "id": "openai/gpt-6.1-sol",
-          "kind": "model",
-          "turns": 20
+          "turns": 26
         },
         {
           "id": "amp-high",
           "kind": "model",
-          "turns": 14
+          "turns": 19
         },
         {
           "id": "xai/grok-4.6",
@@ -100,9 +100,20 @@
     {
       "date": "2026-10-28",
       "weekday": "Wed",
-      "turns": 0,
-      "toolCallCount": 0,
-      "models": []
+      "turns": 9,
+      "toolCallCount": 200,
+      "models": [
+        {
+          "id": "amp-medium",
+          "kind": "model",
+          "turns": 5
+        },
+        {
+          "id": "openai/gpt-6.1-sol",
+          "kind": "model",
+          "turns": 4
+        }
+      ]
     },
     {
       "date": "2026-10-29",
@@ -137,22 +148,22 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 84
+      "turns": 89
     },
     {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 60
+      "turns": 77
     },
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 52
+      "turns": 55
     },
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 39
+      "turns": 44
     },
     {
       "id": "xai/grok-4.7",
@@ -160,14 +171,14 @@
       "turns": 37
     },
     {
+      "id": "google-vertex/gemini-4-argon",
+      "kind": "model",
+      "turns": 30
+    },
+    {
       "id": "xai/grok-4.6",
       "kind": "model",
       "turns": 29
-    },
-    {
-      "id": "google-vertex/gemini-4-argon",
-      "kind": "model",
-      "turns": 25
     },
     {
       "id": "minimax/minimax-m3.1-flash",
