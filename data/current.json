@@ -100,13 +100,13 @@
     {
       "date": "2026-10-28",
       "weekday": "Wed",
-      "turns": 139,
-      "toolCallCount": 2341,
+      "turns": 155,
+      "toolCallCount": 2867,
       "models": [
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 57
+          "turns": 64
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -116,7 +116,12 @@
         {
           "id": "openai/gpt-6.1-sol",
           "kind": "model",
-          "turns": 19
+          "turns": 22
+        },
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 6
         },
         {
           "id": "google-vertex/gemini-4-argon",
@@ -163,7 +168,7 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 141
+      "turns": 148
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -173,7 +178,7 @@
     {
       "id": "openai/gpt-6.1-sol",
       "kind": "model",
-      "turns": 92
+      "turns": 95
     },
     {
       "id": "amp-high",
@@ -194,6 +199,11 @@
       "id": "xai/grok-4.6",
       "kind": "model",
       "turns": 31
+    },
+    {
+      "id": "amp-low",
+      "kind": "model",
+      "turns": 6
     },
     {
       "id": "minimax/minimax-m3.1-flash",
