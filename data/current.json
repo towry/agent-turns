@@ -138,13 +138,23 @@
     {
       "date": "2026-10-29",
       "weekday": "Thu",
-      "turns": 20,
-      "toolCallCount": 824,
+      "turns": 35,
+      "toolCallCount": 1100,
       "models": [
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 8
+          "turns": 13
+        },
+        {
+          "id": "google-vertex/gemini-4-argon",
+          "kind": "model",
+          "turns": 7
+        },
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 5
         },
         {
           "id": "deepseek/deepseek-flash-fast",
@@ -152,17 +162,22 @@
           "turns": 5
         },
         {
-          "id": "amp-low",
+          "id": "amp-high",
           "kind": "model",
-          "turns": 3
+          "turns": 1
         },
         {
-          "id": "google-vertex/gemini-4-argon",
+          "id": "anthropic/claude-sonnet-5-5",
           "kind": "model",
-          "turns": 2
+          "turns": 1
         },
         {
           "id": "deepseek/deepseek-v4.1-flash",
+          "kind": "model",
+          "turns": 1
+        },
+        {
+          "id": "google-vertex/gemini-3.8-flash",
           "kind": "model",
           "turns": 1
         },
@@ -199,7 +214,7 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 182
+      "turns": 187
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -214,12 +229,12 @@
     {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
-      "turns": 49
+      "turns": 54
     },
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 44
+      "turns": 45
     },
     {
       "id": "xai/grok-4.7",
@@ -234,7 +249,7 @@
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 9
+      "turns": 11
     },
     {
       "id": "deepseek/deepseek-flash-fast",
@@ -247,7 +262,17 @@
       "turns": 2
     },
     {
+      "id": "anthropic/claude-sonnet-5-5",
+      "kind": "model",
+      "turns": 1
+    },
+    {
       "id": "deepseek/deepseek-v4.1-flash",
+      "kind": "model",
+      "turns": 1
+    },
+    {
+      "id": "google-vertex/gemini-3.8-flash",
       "kind": "model",
       "turns": 1
     },
