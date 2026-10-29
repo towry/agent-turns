@@ -138,18 +138,18 @@
     {
       "date": "2026-10-29",
       "weekday": "Thu",
-      "turns": 111,
-      "toolCallCount": 2922,
+      "turns": 128,
+      "toolCallCount": 3414,
       "models": [
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 44
+          "turns": 47
         },
         {
           "id": "deepseek/deepseek-flash-fast",
           "kind": "model",
-          "turns": 19
+          "turns": 23
         },
         {
           "id": "anthropic/claude-sonnet-5-5",
@@ -157,19 +157,19 @@
           "turns": 16
         },
         {
+          "id": "google-vertex/gemini-4-argon",
+          "kind": "model",
+          "turns": 14
+        },
+        {
           "id": "amp-low",
           "kind": "model",
           "turns": 12
         },
         {
-          "id": "google-vertex/gemini-4-argon",
-          "kind": "model",
-          "turns": 9
-        },
-        {
           "id": "amp-high",
           "kind": "model",
-          "turns": 7
+          "turns": 11
         },
         {
           "id": "google-vertex/gemini-3.8-flash",
@@ -178,6 +178,11 @@
         },
         {
           "id": "deepseek/deepseek-v4.1-flash",
+          "kind": "model",
+          "turns": 1
+        },
+        {
+          "id": "openai/gpt-6-astra",
           "kind": "model",
           "turns": 1
         },
@@ -214,7 +219,7 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 218
+      "turns": 221
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -229,12 +234,12 @@
     {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
-      "turns": 56
+      "turns": 61
     },
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 51
+      "turns": 55
     },
     {
       "id": "xai/grok-4.7",
@@ -249,7 +254,7 @@
     {
       "id": "deepseek/deepseek-flash-fast",
       "kind": "model",
-      "turns": 19
+      "turns": 23
     },
     {
       "id": "amp-low",
@@ -272,12 +277,12 @@
       "turns": 2
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash",
+      "id": "openai/gpt-6-astra",
       "kind": "model",
-      "turns": 1
+      "turns": 2
     },
     {
-      "id": "openai/gpt-6-astra",
+      "id": "deepseek/deepseek-v4.1-flash",
       "kind": "model",
       "turns": 1
     },
