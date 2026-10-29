@@ -138,13 +138,13 @@
     {
       "date": "2026-10-29",
       "weekday": "Thu",
-      "turns": 35,
-      "toolCallCount": 1100,
+      "turns": 42,
+      "toolCallCount": 1385,
       "models": [
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 13
+          "turns": 18
         },
         {
           "id": "google-vertex/gemini-4-argon",
@@ -152,14 +152,19 @@
           "turns": 7
         },
         {
+          "id": "deepseek/deepseek-flash-fast",
+          "kind": "model",
+          "turns": 6
+        },
+        {
           "id": "amp-low",
           "kind": "model",
           "turns": 5
         },
         {
-          "id": "deepseek/deepseek-flash-fast",
+          "id": "google-vertex/gemini-3.8-flash",
           "kind": "model",
-          "turns": 5
+          "turns": 2
         },
         {
           "id": "amp-high",
@@ -173,11 +178,6 @@
         },
         {
           "id": "deepseek/deepseek-v4.1-flash",
-          "kind": "model",
-          "turns": 1
-        },
-        {
-          "id": "google-vertex/gemini-3.8-flash",
           "kind": "model",
           "turns": 1
         },
@@ -214,7 +214,7 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 187
+      "turns": 192
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -254,7 +254,12 @@
     {
       "id": "deepseek/deepseek-flash-fast",
       "kind": "model",
-      "turns": 5
+      "turns": 6
+    },
+    {
+      "id": "google-vertex/gemini-3.8-flash",
+      "kind": "model",
+      "turns": 2
     },
     {
       "id": "minimax/minimax-m3.1-flash",
@@ -268,11 +273,6 @@
     },
     {
       "id": "deepseek/deepseek-v4.1-flash",
-      "kind": "model",
-      "turns": 1
-    },
-    {
-      "id": "google-vertex/gemini-3.8-flash",
       "kind": "model",
       "turns": 1
     },
