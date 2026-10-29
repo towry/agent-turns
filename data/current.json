@@ -138,28 +138,28 @@
     {
       "date": "2026-10-29",
       "weekday": "Thu",
-      "turns": 88,
-      "toolCallCount": 2391,
+      "turns": 111,
+      "toolCallCount": 2922,
       "models": [
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 40
-        },
-        {
-          "id": "anthropic/claude-sonnet-5-5",
-          "kind": "model",
-          "turns": 15
-        },
-        {
-          "id": "amp-low",
-          "kind": "model",
-          "turns": 10
+          "turns": 44
         },
         {
           "id": "deepseek/deepseek-flash-fast",
           "kind": "model",
-          "turns": 9
+          "turns": 19
+        },
+        {
+          "id": "anthropic/claude-sonnet-5-5",
+          "kind": "model",
+          "turns": 16
+        },
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 12
         },
         {
           "id": "google-vertex/gemini-4-argon",
@@ -167,14 +167,14 @@
           "turns": 9
         },
         {
+          "id": "amp-high",
+          "kind": "model",
+          "turns": 7
+        },
+        {
           "id": "google-vertex/gemini-3.8-flash",
           "kind": "model",
           "turns": 2
-        },
-        {
-          "id": "amp-high",
-          "kind": "model",
-          "turns": 1
         },
         {
           "id": "deepseek/deepseek-v4.1-flash",
@@ -214,7 +214,7 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 214
+      "turns": 218
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -234,7 +234,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 45
+      "turns": 51
     },
     {
       "id": "xai/grok-4.7",
@@ -247,19 +247,19 @@
       "turns": 31
     },
     {
+      "id": "deepseek/deepseek-flash-fast",
+      "kind": "model",
+      "turns": 19
+    },
+    {
       "id": "amp-low",
       "kind": "model",
-      "turns": 16
+      "turns": 18
     },
     {
       "id": "anthropic/claude-sonnet-5-5",
       "kind": "model",
-      "turns": 15
-    },
-    {
-      "id": "deepseek/deepseek-flash-fast",
-      "kind": "model",
-      "turns": 9
+      "turns": 16
     },
     {
       "id": "google-vertex/gemini-3.8-flash",
