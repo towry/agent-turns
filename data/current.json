@@ -196,23 +196,23 @@
     {
       "date": "2026-10-30",
       "weekday": "Fri",
-      "turns": 10,
-      "toolCallCount": 187,
+      "turns": 30,
+      "toolCallCount": 457,
       "models": [
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 8
-        },
-        {
-          "id": "amp-high",
-          "kind": "model",
-          "turns": 1
+          "turns": 13
         },
         {
           "id": "unknown",
           "kind": "model",
-          "turns": 1
+          "turns": 10
+        },
+        {
+          "id": "amp-high",
+          "kind": "model",
+          "turns": 7
         }
       ]
     },
@@ -250,7 +250,7 @@
     {
       "id": "amp-high",
       "kind": "model",
-      "turns": 72
+      "turns": 78
     },
     {
       "id": "google-vertex/gemini-4-argon",
@@ -258,14 +258,14 @@
       "turns": 70
     },
     {
+      "id": "amp-low",
+      "kind": "model",
+      "turns": 41
+    },
+    {
       "id": "xai/grok-4.7",
       "kind": "model",
       "turns": 37
-    },
-    {
-      "id": "amp-low",
-      "kind": "model",
-      "turns": 36
     },
     {
       "id": "xai/grok-4.6",
@@ -281,6 +281,11 @@
       "id": "deepseek/deepseek-flash-fast",
       "kind": "model",
       "turns": 25
+    },
+    {
+      "id": "unknown",
+      "kind": "model",
+      "turns": 10
     },
     {
       "id": "google-vertex/gemini-3.8-flash",
@@ -304,11 +309,6 @@
     },
     {
       "id": "openai/gpt-6-luna",
-      "kind": "model",
-      "turns": 1
-    },
-    {
-      "id": "unknown",
       "kind": "model",
       "turns": 1
     }
