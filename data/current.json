@@ -196,28 +196,28 @@
     {
       "date": "2026-10-30",
       "weekday": "Fri",
-      "turns": 172,
-      "toolCallCount": 3244,
+      "turns": 182,
+      "toolCallCount": 3333,
       "models": [
         {
           "id": "unknown",
           "kind": "model",
-          "turns": 61
+          "turns": 64
         },
         {
           "id": "deepseek/deepseek-flash-fast",
           "kind": "model",
-          "turns": 42
+          "turns": 47
+        },
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 27
         },
         {
           "id": "amp-medium",
           "kind": "model",
           "turns": 26
-        },
-        {
-          "id": "amp-low",
-          "kind": "model",
-          "turns": 25
         },
         {
           "id": "amp-high",
@@ -278,24 +278,24 @@
       "turns": 85
     },
     {
+      "id": "deepseek/deepseek-flash-fast",
+      "kind": "model",
+      "turns": 72
+    },
+    {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
       "turns": 71
     },
     {
-      "id": "deepseek/deepseek-flash-fast",
-      "kind": "model",
-      "turns": 67
-    },
-    {
       "id": "unknown",
       "kind": "model",
-      "turns": 61
+      "turns": 64
     },
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 53
+      "turns": 55
     },
     {
       "id": "xai/grok-4.7",
