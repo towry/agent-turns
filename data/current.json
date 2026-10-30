@@ -196,23 +196,28 @@
     {
       "date": "2026-10-30",
       "weekday": "Fri",
-      "turns": 131,
-      "toolCallCount": 2303,
+      "turns": 161,
+      "toolCallCount": 2962,
       "models": [
         {
           "id": "unknown",
           "kind": "model",
-          "turns": 57
+          "turns": 59
         },
         {
           "id": "deepseek/deepseek-flash-fast",
           "kind": "model",
-          "turns": 29
+          "turns": 36
         },
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 20
+          "turns": 24
+        },
+        {
+          "id": "amp-medium",
+          "kind": "model",
+          "turns": 24
         },
         {
           "id": "amp-high",
@@ -220,14 +225,19 @@
           "turns": 14
         },
         {
-          "id": "amp-medium",
-          "kind": "model",
-          "turns": 9
-        },
-        {
           "id": "google-vertex/gemini-3.8-flash",
           "kind": "model",
           "turns": 2
+        },
+        {
+          "id": "google-vertex/gemini-4-argon",
+          "kind": "model",
+          "turns": 1
+        },
+        {
+          "id": "openai/gpt-6-luna",
+          "kind": "model",
+          "turns": 1
         }
       ]
     },
@@ -250,7 +260,7 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 244
+      "turns": 259
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -270,22 +280,22 @@
     {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
-      "turns": 70
-    },
-    {
-      "id": "unknown",
-      "kind": "model",
-      "turns": 57
+      "turns": 71
     },
     {
       "id": "deepseek/deepseek-flash-fast",
       "kind": "model",
-      "turns": 54
+      "turns": 61
+    },
+    {
+      "id": "unknown",
+      "kind": "model",
+      "turns": 59
     },
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 48
+      "turns": 52
     },
     {
       "id": "xai/grok-4.7",
@@ -318,12 +328,12 @@
       "turns": 2
     },
     {
-      "id": "deepseek/deepseek-v4.1-flash",
+      "id": "openai/gpt-6-luna",
       "kind": "model",
-      "turns": 1
+      "turns": 2
     },
     {
-      "id": "openai/gpt-6-luna",
+      "id": "deepseek/deepseek-v4.1-flash",
       "kind": "model",
       "turns": 1
     }
