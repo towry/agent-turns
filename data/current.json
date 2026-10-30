@@ -196,18 +196,18 @@
     {
       "date": "2026-10-30",
       "weekday": "Fri",
-      "turns": 77,
-      "toolCallCount": 1304,
+      "turns": 100,
+      "toolCallCount": 1750,
       "models": [
         {
           "id": "unknown",
           "kind": "model",
-          "turns": 38
+          "turns": 51
         },
         {
           "id": "amp-low",
           "kind": "model",
-          "turns": 18
+          "turns": 19
         },
         {
           "id": "amp-high",
@@ -215,14 +215,14 @@
           "turns": 14
         },
         {
-          "id": "amp-medium",
-          "kind": "model",
-          "turns": 4
-        },
-        {
           "id": "deepseek/deepseek-flash-fast",
           "kind": "model",
-          "turns": 2
+          "turns": 9
+        },
+        {
+          "id": "amp-medium",
+          "kind": "model",
+          "turns": 6
         },
         {
           "id": "google-vertex/gemini-3.8-flash",
@@ -250,7 +250,7 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 239
+      "turns": 241
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -273,19 +273,24 @@
       "turns": 70
     },
     {
-      "id": "amp-low",
-      "kind": "model",
-      "turns": 46
-    },
-    {
       "id": "unknown",
       "kind": "model",
-      "turns": 38
+      "turns": 51
+    },
+    {
+      "id": "amp-low",
+      "kind": "model",
+      "turns": 47
     },
     {
       "id": "xai/grok-4.7",
       "kind": "model",
       "turns": 37
+    },
+    {
+      "id": "deepseek/deepseek-flash-fast",
+      "kind": "model",
+      "turns": 34
     },
     {
       "id": "xai/grok-4.6",
@@ -294,11 +299,6 @@
     },
     {
       "id": "anthropic/claude-sonnet-5-5",
-      "kind": "model",
-      "turns": 27
-    },
-    {
-      "id": "deepseek/deepseek-flash-fast",
       "kind": "model",
       "turns": 27
     },
