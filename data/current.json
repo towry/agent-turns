@@ -138,23 +138,28 @@
     {
       "date": "2026-10-29",
       "weekday": "Thu",
-      "turns": 176,
-      "toolCallCount": 4399,
+      "turns": 190,
+      "toolCallCount": 4749,
       "models": [
         {
           "id": "amp-medium",
           "kind": "model",
-          "turns": 57
+          "turns": 61
+        },
+        {
+          "id": "amp-high",
+          "kind": "model",
+          "turns": 27
+        },
+        {
+          "id": "anthropic/claude-sonnet-5-5",
+          "kind": "model",
+          "turns": 27
         },
         {
           "id": "deepseek/deepseek-flash-fast",
           "kind": "model",
           "turns": 25
-        },
-        {
-          "id": "anthropic/claude-sonnet-5-5",
-          "kind": "model",
-          "turns": 24
         },
         {
           "id": "google-vertex/gemini-4-argon",
@@ -165,11 +170,6 @@
           "id": "amp-low",
           "kind": "model",
           "turns": 22
-        },
-        {
-          "id": "amp-high",
-          "kind": "model",
-          "turns": 20
         },
         {
           "id": "google-vertex/gemini-3.8-flash",
@@ -196,9 +196,15 @@
     {
       "date": "2026-10-30",
       "weekday": "Fri",
-      "turns": 0,
-      "toolCallCount": 0,
-      "models": []
+      "turns": 1,
+      "toolCallCount": 28,
+      "models": [
+        {
+          "id": "amp-low",
+          "kind": "model",
+          "turns": 1
+        }
+      ]
     },
     {
       "date": "2026-10-31",
@@ -219,7 +225,7 @@
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 231
+      "turns": 235
     },
     {
       "id": "anthropic/claude-opus-5-5",
@@ -232,14 +238,14 @@
       "turns": 95
     },
     {
+      "id": "amp-high",
+      "kind": "model",
+      "turns": 71
+    },
+    {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
       "turns": 70
-    },
-    {
-      "id": "amp-high",
-      "kind": "model",
-      "turns": 64
     },
     {
       "id": "xai/grok-4.7",
@@ -254,17 +260,17 @@
     {
       "id": "amp-low",
       "kind": "model",
-      "turns": 28
+      "turns": 29
+    },
+    {
+      "id": "anthropic/claude-sonnet-5-5",
+      "kind": "model",
+      "turns": 27
     },
     {
       "id": "deepseek/deepseek-flash-fast",
       "kind": "model",
       "turns": 25
-    },
-    {
-      "id": "anthropic/claude-sonnet-5-5",
-      "kind": "model",
-      "turns": 24
     },
     {
       "id": "google-vertex/gemini-3.8-flash",
