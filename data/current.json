@@ -196,16 +196,16 @@
     {
       "date": "2026-10-30",
       "weekday": "Fri",
-      "turns": 54,
-      "toolCallCount": 1015,
+      "turns": 77,
+      "toolCallCount": 1304,
       "models": [
         {
-          "id": "amp-low",
+          "id": "unknown",
           "kind": "model",
-          "turns": 18
+          "turns": 38
         },
         {
-          "id": "unknown",
+          "id": "amp-low",
           "kind": "model",
           "turns": 18
         },
@@ -218,6 +218,16 @@
           "id": "amp-medium",
           "kind": "model",
           "turns": 4
+        },
+        {
+          "id": "deepseek/deepseek-flash-fast",
+          "kind": "model",
+          "turns": 2
+        },
+        {
+          "id": "google-vertex/gemini-3.8-flash",
+          "kind": "model",
+          "turns": 1
         }
       ]
     },
@@ -268,6 +278,11 @@
       "turns": 46
     },
     {
+      "id": "unknown",
+      "kind": "model",
+      "turns": 38
+    },
+    {
       "id": "xai/grok-4.7",
       "kind": "model",
       "turns": 37
@@ -285,17 +300,12 @@
     {
       "id": "deepseek/deepseek-flash-fast",
       "kind": "model",
-      "turns": 25
-    },
-    {
-      "id": "unknown",
-      "kind": "model",
-      "turns": 18
+      "turns": 27
     },
     {
       "id": "google-vertex/gemini-3.8-flash",
       "kind": "model",
-      "turns": 2
+      "turns": 3
     },
     {
       "id": "minimax/minimax-m3.1-flash",
