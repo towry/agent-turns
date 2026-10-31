@@ -249,18 +249,18 @@
     {
       "date": "2026-10-31",
       "weekday": "Sat",
-      "turns": 97,
-      "toolCallCount": 1327,
+      "turns": 110,
+      "toolCallCount": 1494,
       "models": [
         {
           "id": "unknown",
           "kind": "model",
-          "turns": 56
+          "turns": 67
         },
         {
           "id": "deepseek/deepseek-flash-fast",
           "kind": "model",
-          "turns": 30
+          "turns": 32
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -291,17 +291,17 @@
     {
       "id": "unknown",
       "kind": "model",
-      "turns": 132
+      "turns": 143
+    },
+    {
+      "id": "deepseek/deepseek-flash-fast",
+      "kind": "model",
+      "turns": 122
     },
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
       "turns": 121
-    },
-    {
-      "id": "deepseek/deepseek-flash-fast",
-      "kind": "model",
-      "turns": 120
     },
     {
       "id": "openai/gpt-6.1-sol",
