@@ -196,18 +196,18 @@
     {
       "date": "2026-10-30",
       "weekday": "Fri",
-      "turns": 199,
-      "toolCallCount": 3544,
+      "turns": 224,
+      "toolCallCount": 3827,
       "models": [
         {
           "id": "unknown",
           "kind": "model",
-          "turns": 68
+          "turns": 76
         },
         {
           "id": "deepseek/deepseek-flash-fast",
           "kind": "model",
-          "turns": 54
+          "turns": 65
         },
         {
           "id": "amp-low",
@@ -227,17 +227,17 @@
         {
           "id": "openai/gpt-6-luna",
           "kind": "model",
-          "turns": 4
+          "turns": 9
+        },
+        {
+          "id": "anthropic/claude-opus-5-5",
+          "kind": "model",
+          "turns": 2
         },
         {
           "id": "google-vertex/gemini-3.8-flash",
           "kind": "model",
           "turns": 2
-        },
-        {
-          "id": "anthropic/claude-opus-5-5",
-          "kind": "model",
-          "turns": 1
         },
         {
           "id": "google-vertex/gemini-4-argon",
@@ -270,7 +270,7 @@
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 113
+      "turns": 114
     },
     {
       "id": "openai/gpt-6.1-sol",
@@ -278,24 +278,24 @@
       "turns": 95
     },
     {
+      "id": "deepseek/deepseek-flash-fast",
+      "kind": "model",
+      "turns": 90
+    },
+    {
       "id": "amp-high",
       "kind": "model",
       "turns": 85
     },
     {
-      "id": "deepseek/deepseek-flash-fast",
+      "id": "unknown",
       "kind": "model",
-      "turns": 79
+      "turns": 76
     },
     {
       "id": "google-vertex/gemini-4-argon",
       "kind": "model",
       "turns": 71
-    },
-    {
-      "id": "unknown",
-      "kind": "model",
-      "turns": 68
     },
     {
       "id": "amp-low",
@@ -320,7 +320,7 @@
     {
       "id": "openai/gpt-6-luna",
       "kind": "model",
-      "turns": 5
+      "turns": 10
     },
     {
       "id": "google-vertex/gemini-3.8-flash",
