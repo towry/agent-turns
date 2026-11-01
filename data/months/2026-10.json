@@ -1,0 +1,165 @@
+{
+  "kind": "month",
+  "id": "2026-10",
+  "label": "2026-10",
+  "complete": true,
+  "bars": [
+    {
+      "id": "2026-W40",
+      "label": "W40",
+      "turns": 68,
+      "href": "?week=2026-W40"
+    },
+    {
+      "id": "2026-W41",
+      "label": "W41",
+      "turns": 575,
+      "href": "?week=2026-W41"
+    },
+    {
+      "id": "2026-W42",
+      "label": "W42",
+      "turns": 943,
+      "href": "?week=2026-W42"
+    },
+    {
+      "id": "2026-W43",
+      "label": "W43",
+      "turns": 1257,
+      "href": "?week=2026-W43"
+    },
+    {
+      "id": "2026-W44",
+      "label": "W44",
+      "turns": 1134,
+      "href": "?week=2026-W44"
+    }
+  ],
+  "models": [
+    {
+      "id": "amp-high",
+      "kind": "model",
+      "turns": 970
+    },
+    {
+      "id": "amp-medium",
+      "kind": "model",
+      "turns": 591
+    },
+    {
+      "id": "amp-low",
+      "kind": "model",
+      "turns": 468
+    },
+    {
+      "id": "anthropic/claude-opus-5-5",
+      "kind": "model",
+      "turns": 432
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "kind": "model",
+      "turns": 204
+    },
+    {
+      "id": "google-vertex/gemini-4-argon",
+      "kind": "model",
+      "turns": 188
+    },
+    {
+      "id": "unknown",
+      "kind": "model",
+      "turns": 185
+    },
+    {
+      "id": "xai/grok-4.6",
+      "kind": "model",
+      "turns": 162
+    },
+    {
+      "id": "deepseek/deepseek-flash-fast",
+      "kind": "model",
+      "turns": 140
+    },
+    {
+      "id": "zhipuai/glm-5.3-flash",
+      "kind": "model",
+      "turns": 134
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "kind": "model",
+      "turns": 128
+    },
+    {
+      "id": "xai/grok-4.7",
+      "kind": "model",
+      "turns": 88
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "kind": "model",
+      "turns": 84
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "kind": "model",
+      "turns": 46
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "kind": "model",
+      "turns": 35
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "kind": "model",
+      "turns": 30
+    },
+    {
+      "id": "anthropic/claude-sonnet-5-5",
+      "kind": "model",
+      "turns": 27
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "kind": "model",
+      "turns": 20
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "kind": "model",
+      "turns": 13
+    },
+    {
+      "id": "amp-ultra",
+      "kind": "model",
+      "turns": 9
+    },
+    {
+      "id": "anthropic/claude-opus-5",
+      "kind": "model",
+      "turns": 9
+    },
+    {
+      "id": "minimax/minimax-m3.1-flash",
+      "kind": "model",
+      "turns": 5
+    },
+    {
+      "id": "google-vertex/gemini-3.8-flash",
+      "kind": "model",
+      "turns": 4
+    },
+    {
+      "id": "minimax/MiniMax-M3",
+      "kind": "model",
+      "turns": 3
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "kind": "model",
+      "turns": 2
+    }
+  ]
+}
