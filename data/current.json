@@ -277,18 +277,18 @@
     {
       "date": "2026-11-01",
       "weekday": "Sun",
-      "turns": 140,
-      "toolCallCount": 1790,
+      "turns": 160,
+      "toolCallCount": 2333,
       "models": [
         {
           "id": "unknown",
           "kind": "model",
-          "turns": 94
+          "turns": 107
         },
         {
           "id": "deepseek/deepseek-flash-fast",
           "kind": "model",
-          "turns": 39
+          "turns": 45
         },
         {
           "id": "anthropic/claude-opus-5-5",
@@ -299,6 +299,11 @@
           "id": "amp-low",
           "kind": "model",
           "turns": 3
+        },
+        {
+          "id": "amp-medium",
+          "kind": "model",
+          "turns": 1
         }
       ]
     }
@@ -307,17 +312,17 @@
     {
       "id": "unknown",
       "kind": "model",
-      "turns": 279
+      "turns": 292
     },
     {
       "id": "amp-medium",
       "kind": "model",
-      "turns": 265
+      "turns": 266
     },
     {
       "id": "deepseek/deepseek-flash-fast",
       "kind": "model",
-      "turns": 179
+      "turns": 185
     },
     {
       "id": "anthropic/claude-opus-5-5",
