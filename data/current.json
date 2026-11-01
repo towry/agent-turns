@@ -277,18 +277,23 @@
     {
       "date": "2026-11-01",
       "weekday": "Sun",
-      "turns": 11,
-      "toolCallCount": 100,
+      "turns": 27,
+      "toolCallCount": 329,
       "models": [
         {
           "id": "unknown",
           "kind": "model",
-          "turns": 7
+          "turns": 14
         },
         {
           "id": "deepseek/deepseek-flash-fast",
           "kind": "model",
-          "turns": 4
+          "turns": 11
+        },
+        {
+          "id": "anthropic/claude-opus-5-5",
+          "kind": "model",
+          "turns": 2
         }
       ]
     }
@@ -302,17 +307,17 @@
     {
       "id": "unknown",
       "kind": "model",
-      "turns": 192
+      "turns": 199
     },
     {
       "id": "deepseek/deepseek-flash-fast",
       "kind": "model",
-      "turns": 144
+      "turns": 151
     },
     {
       "id": "anthropic/claude-opus-5-5",
       "kind": "model",
-      "turns": 122
+      "turns": 124
     },
     {
       "id": "openai/gpt-6.1-sol",
