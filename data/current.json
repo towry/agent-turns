@@ -9,18 +9,33 @@
     {
       "date": "2026-11-02",
       "weekday": "Mon",
-      "turns": 26,
-      "toolCallCount": 801,
+      "turns": 44,
+      "toolCallCount": 1465,
       "models": [
         {
           "id": "unknown",
           "kind": "model",
-          "turns": 24
+          "turns": 37
         },
         {
           "id": "gpt-6.1-sol",
           "kind": "model",
+          "turns": 3
+        },
+        {
+          "id": "deepseek-v4.1-flash",
+          "kind": "model",
           "turns": 2
+        },
+        {
+          "id": "deepseek/deepseek-v4.1-flash",
+          "kind": "model",
+          "turns": 1
+        },
+        {
+          "id": "deepseek/deepseek-v4.1-flash-1017-cm",
+          "kind": "model",
+          "turns": 1
         }
       ]
     },
@@ -71,12 +86,27 @@
     {
       "id": "unknown",
       "kind": "model",
-      "turns": 24
+      "turns": 37
     },
     {
       "id": "gpt-6.1-sol",
       "kind": "model",
+      "turns": 3
+    },
+    {
+      "id": "deepseek-v4.1-flash",
+      "kind": "model",
       "turns": 2
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "kind": "model",
+      "turns": 1
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017-cm",
+      "kind": "model",
+      "turns": 1
     }
   ]
 }
