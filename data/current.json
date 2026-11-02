@@ -9,18 +9,18 @@
     {
       "date": "2026-11-02",
       "weekday": "Mon",
-      "turns": 10,
-      "toolCallCount": 327,
+      "turns": 26,
+      "toolCallCount": 801,
       "models": [
         {
           "id": "unknown",
           "kind": "model",
-          "turns": 9
+          "turns": 24
         },
         {
           "id": "gpt-6.1-sol",
           "kind": "model",
-          "turns": 1
+          "turns": 2
         }
       ]
     },
@@ -71,12 +71,12 @@
     {
       "id": "unknown",
       "kind": "model",
-      "turns": 9
+      "turns": 24
     },
     {
       "id": "gpt-6.1-sol",
       "kind": "model",
-      "turns": 1
+      "turns": 2
     }
   ]
 }
